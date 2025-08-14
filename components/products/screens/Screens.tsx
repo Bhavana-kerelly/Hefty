@@ -44,7 +44,7 @@ export default function MortgageLoans() {
             Big Visions. Bold Moves. Backed by Smart Capital.
           </h2>
           <p className="text-base mb-6">
-           At Nihal Finserv, we empower your business to scale, diversify, and innovate with customized corporate loan solutions. Whether you're expanding your operations, investing in new technology, or boosting your working capital — we ensure you get the right funding at the right time.
+           At Nihal Finserv, we empower your business to scale, diversify, and innovate with customized corporate loan solutions. Whether your expanding your operations, investing in new technology, or boosting your working capital — we ensure you get the right funding at the right time.
           </p>
           
           

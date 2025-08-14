@@ -121,7 +121,7 @@ export default function AIChatbotFinancing() {
               Documents Required
             </h2>
             <p className="text-gray-600 text-lg mb-6 max-w-xl">
-              We'll help you through each step — from proposal to payout.
+              We will help you through each step — from proposal to payout.
             </p>
             <ul className="space-y-4">
               {steps.map((step, idx) => (
