@@ -16,7 +16,7 @@ export default function Crushers() {
             
             <div className="rounded-xl overflow-hidden shadow-md">
               <Image
-                src="/crushers/C2.jpg" // make sure to place the image in /public folder
+                src="/crushers/R1.jpg" // make sure to place the image in /public folder
                 alt="Team"
                 width={700}
                 height={400}
