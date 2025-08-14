@@ -1,6 +1,7 @@
 // app/blogs/[slug]/page.tsx
 "use client";
 
+import {use} from "react";
 import React from "react";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
@@ -20,8 +21,9 @@ const blogComponents: Record<string, React.ReactElement> = {
   "quarry-to-construction": <HeftyBlog5 />,
 };
 
-export default function BlogPage({ params }: { params: { slug: string } }) {
-  const blogContent = blogComponents[params.slug];
+export default function BlogPage({ params }: { params: Promise<{ slug: string }> }) {
+  const {slug} = use(params);
+  const blogContent = blogComponents[slug];
 
   if (!blogContent) {
     notFound();
