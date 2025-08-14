@@ -179,11 +179,6 @@ export default function Crushers() {
     </div>
       </section>
     
- 
-    
-    
-    
-    
     <ContactSection />
     
       

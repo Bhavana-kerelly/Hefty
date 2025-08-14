@@ -34,7 +34,7 @@ export default function FaqSection() {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between px-6 py-16 max-w-7xl mx-auto">
+    <div className="flex flex-col bg-white lg:flex-row items-center justify-between px-6 py-16 max-w-7xl mx-auto">
       {/* Left Side: FAQ */}
       <div className="w-full lg:w-1/2">
         <h2 className="text-blue-900 text-4xl font-bold mb-6 ">Why Choose Hefty</h2>

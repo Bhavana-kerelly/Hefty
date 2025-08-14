@@ -47,7 +47,7 @@ export default function SoftwareOutsourcing() {
   ];
 
   return (
-    <div className="bg-gray-50 py-16 px-8">
+    <div className="bg-gray-100 py-16 px-8">
       <div className="max-w-7xl mx-auto space-y-20">
         {sections.map((section, idx) => (
           <div key={idx} className="flex flex-col items-center text-center">
