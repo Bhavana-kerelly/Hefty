@@ -35,7 +35,7 @@ export default function Header() {
   };
 
   return (
-    <header className="w-full h-20 shadow-lg bg-[#ffffff] text-black relative z-50 font-serif">
+    <header className="sticky top-0 z-50 w-full h-20 shadow-md bg-[#ffffff] text-black relative z-50 font-serif">
       <div className="max-w-[1280px] mx-auto flex items-center justify-between h-full px-6">
 
         {/* Logo */}
