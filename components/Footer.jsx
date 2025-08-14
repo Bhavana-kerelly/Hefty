@@ -79,8 +79,8 @@ export default function Footer() {
             <address className="not-italic text-sm text-blue-900 space-y-2">
               <p>Hyderabad</p>
               {/* <p>Financial City, FL 12345</p> */}
-              <p>Email: <a href="mailto:heftyofficial2025@gmail.com" className="hover:text-blue-400 transition-colors duration-300">info@hefty.com</a></p>
-              <p>Phone: <a href="tel:+91 7337500757" className="hover:text-blue-400 transition-colors duration-300">+1 (800) 555-0199</a></p>
+              <p>Email: <a href="mailto:heftyofficial2025@gmail.com" className="hover:text-blue-400 transition-colors duration-300">heftyofficial2025@gmail.com</a></p>
+              <p>Phone: <a href="tel:+91 7337500757" className="hover:text-blue-400 transition-colors duration-300">+91 7337500757</a></p>
             </address>
           </div>
           

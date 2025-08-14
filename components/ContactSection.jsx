@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 const offices = [
   {
     city: "Hyderabad",
-    address: "E-63, 1st Floor, Above Shiva Homeo Care, Madhuranagar, Hyderabad, Telangana",
-    phone: "+91 9951606993",
+    address: "Hyderabad",
+    phone: "+91 73375 00757",
     map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.3371810419266!2d78.43265107504443!3d17.44390038346123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b929653770335e9%3A0x8673a55745161421!2sMadhuranagar%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1716301385493!5m2!1sen!2sin"
   },
   
