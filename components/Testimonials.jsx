@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 
 const testimonials = [
   {
@@ -40,10 +40,10 @@ const styles = {
     fontSize: "42px",
     fontWeight: "700",
     textAlign: "center",
-    marginBottom: "40px",
-    maxWidth: "1200px",
     margin: "0 auto 40px",
-    color: "#000",
+    color: "#1e3a8a", // blue-900
+    transition: "color 0.3s",
+    cursor: "pointer",
   },
   testimonials: {
     display: "flex",
@@ -61,6 +61,8 @@ const styles = {
     minWidth: "300px",
     boxShadow: "0 4px 10px rgba(0,0,0,0.08)",
     position: "relative",
+    cursor: "pointer",
+    transition: "all 0.3s ease",
   },
   quoteIcon: {
     fontSize: "32px",
@@ -69,7 +71,7 @@ const styles = {
   },
   text: {
     fontSize: "16px",
-    color: "black",
+    color: "#1e3a8a", // blue-900
     marginBottom: "30px",
     lineHeight: "1.6",
   },
@@ -85,14 +87,38 @@ const styles = {
 };
 
 export default function Testimonials() {
+  const [headerHover, setHeaderHover] = useState(false);
+
+  const handleCardMouseEnter = (e) => {
+    e.currentTarget.style.transform = "translateY(-10px)";
+    e.currentTarget.style.boxShadow = "0 10px 20px rgba(0,0,0,0.15)";
+  };
+
+  const handleCardMouseLeave = (e) => {
+    e.currentTarget.style.transform = "translateY(0)";
+    e.currentTarget.style.boxShadow = "0 4px 10px rgba(0,0,0,0.08)";
+  };
+
   return (
     <div style={styles.wrapper}>
-      <div style={styles.header}>
+      <div
+        style={{
+          ...styles.header,
+          color: headerHover ? "#f97316" : "#1e3a8a", // blue-900 → orange on hover
+        }}
+        onMouseEnter={() => setHeaderHover(true)}
+        onMouseLeave={() => setHeaderHover(false)}
+      >
         Testimonials
       </div>
       <div style={styles.testimonials}>
         {testimonials.map((item, idx) => (
-          <div key={idx} style={styles.card}>
+          <div
+            key={idx}
+            style={styles.card}
+            onMouseEnter={handleCardMouseEnter}
+            onMouseLeave={handleCardMouseLeave}
+          >
             <div style={styles.quoteIcon}>❝</div>
             <div style={styles.text}>{item.text}</div>
             <div style={styles.author}>{item.name}</div>

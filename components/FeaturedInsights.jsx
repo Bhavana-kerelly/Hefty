@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 
 const articles = [
   {
@@ -18,86 +19,42 @@ const articles = [
     slug: "driven-by-values",
   },
   {
-    title: "PSafety and Sustainability- How Hefty Leads in Responsible Machinery Design",
+    title: "Safety and Sustainability- How Hefty Leads in Responsible Machinery Design",
     image: "https://media.assettype.com/outlookmoney/2025-01-31/104ynhsa/Untitled-design-8.png?w=801&auto=format%2Ccompress&fit=max&format=webp&dpr=1.05",
     slug: "loans-for-doctors-cas",
   },
 ];
 
-const styles = {
-  container: {
-    padding: "60px 20px",
-    maxWidth: "1200px",
-    margin: "0 auto",
-    fontFamily: "'Segoe UI', sans-serif",
-  },
-  heading: {
-    fontSize: "36px",
-    fontWeight: "700",
-    textAlign: "center",
-    marginBottom: "10px",
-  },
-  subheading: {
-    fontSize: "18px",
-    color: "#555",
-    textAlign: "center",
-    marginBottom: "40px",
-  },
-  grid: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
-    gridGap: "20px",
-    gap: "30px",
-  },
-  card: {
-    borderRadius: "8px",
-    overflow: "hidden",
-    backgroundColor: "#fff",
-    boxShadow: "0 4px 10px rgba(0,0,0,0.08)",
-    transition: "transform 0.3s ease",
-    cursor: "pointer",
-    textDecoration: "none",
-  },
-  cardImage: {
-    width: "100%",
-    height: "200px",
-    objectFit: "cover",
-    flexShrink: "0",
-  },
-  cardTitle: {
-    padding: "16px",
-    fontSize: "18px",
-    fontWeight: "600",
-    color: "#000",
-    lineHeight: "1.4",
-  },
-};
-
 export default function FeaturedInsights() {
-  const handleRedirect = (slug) => {
-    // A standard way to redirect in a non-Next.js environment
-    window.location.href = `/blog/${slug}`;
-  };
-
   return (
-    <div style={styles.container}>
-      <div style={styles.heading}>Blogs</div>
-      <div style={styles.subheading}>
-        <div className="text-black font-serif"> 
-          Explore our comprehensive blog posts today and let Hefty guide you towards smarter manufacture crushers and screening equipment.
-        </div>
-      </div>
-      <div style={styles.grid}>
+    <div className="max-w-[1200px] mx-auto px-4 py-16 font-sans group">
+      {/* Blogs Heading */}
+      <h2 className="text-blue-900 text-4xl font-bold text-center mb-4 transition-colors duration-300 group-hover:text-orange-500">
+        Blogs
+      </h2>
+
+      <p className="text-center text-gray-600 mb-12">
+        Explore our comprehensive blog posts today and let Hefty guide you towards smarter manufacture crushers and screening equipment.
+      </p>
+
+      <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {articles.map((item, index) => (
-          <div 
-            key={index} 
-            style={styles.card} 
-            className="hover:scale-105"
-            onClick={() => handleRedirect(item.slug)}
+          <Link
+            key={index}
+            href={`/blog/${item.slug}`}
+            className="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105 hover:border-orange-500"
           >
-            <img src={item.image} alt={item.title} style={styles.cardImage} />
-            <div style={styles.cardTitle}>{item.title}</div>
-          </div>
+            <img
+              src={item.image}
+              alt={item.title}
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="text-blue-900 font-semibold text-lg transition-colors duration-300 hover:text-orange-500">
+                {item.title}
+              </h3>
+            </div>
+          </Link>
         ))}
       </div>
     </div>

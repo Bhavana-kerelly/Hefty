@@ -120,7 +120,7 @@ export default function Header() {
                   {/* Column 1: Crushes */}
                   <div className="flex flex-col space-y-3">
                     <div className="font-semibold text-base mb-2">
-                      <a href="/products/crushers" className="hover:text-black transition-colors">Crushers</a>
+                      <a href="/products/crushers/crushers" className="hover:text-black transition-colors">Crushers</a>
                     </div>
                     <a href="/products/crushers/jawcrushers" className="hover:text-black transition-colors">Jaw Crushers</a>
                     <a href="/products/crushers/conecrushers" className="hover:text-black transition-colors">Cone Crushers</a>
@@ -129,7 +129,7 @@ export default function Header() {
                   {/* Column 2: Mobile Series */}
                   <div className="flex flex-col space-y-3">
                     <div className="font-semibold text-base mb-2">
-                      <a href="/products/mobileseries" className="hover:text-black transition-colors">Mobile Series</a>
+                      <a href="/products/mobileseries/mobileseries" className="hover:text-black transition-colors">Mobile Series</a>
                     </div>
                     <a href="/products/mobileseries/trackmountedjawcrusher" className="hover:text-black transition-colors">Track Mounted Jaw Crusher</a>
                     <a href="/products/mobileseries/trackmountedconecrusher" className="hover:text-black transition-colors">Track Mounted Cone Crusher</a>
@@ -141,7 +141,7 @@ export default function Header() {
                   {/* Column 3: Semi Mobile Series */}
                   <div className="flex flex-col space-y-3">
                     <div className="font-semibold text-base mb-2">
-                      <a href="/products/semimobileseries" className="hover:text-black transition-colors">Semi Mobile Series</a>
+                      <a href="/products/semimobileseries/semimobileseries" className="hover:text-black transition-colors">Semi Mobile Series</a>
                     </div>
                     <a href="/products/semimobileseries/profastjaw" className="hover:text-black transition-colors">Pro Fast Jaw</a>
                     <a href="/products/semimobileseries/profastcone" className="hover:text-black transition-colors">Pro Fast Cone</a>
@@ -150,13 +150,13 @@ export default function Header() {
                   {/* Column 4: Feeders and Impactors */}
                   <div className="flex flex-col space-y-3">
                     <div className="font-semibold text-base mb-2">
-                      <a href="/products/feeders" className="hover:text-black transition-colors">Feeders</a>
+                      <a href="/products/feeders/feeders" className="hover:text-black transition-colors">Feeders</a>
                     </div>
                     <a href="/products/feeders/grizzly" className="hover:text-black transition-colors">Grizzly Feeder</a>
                     <a href="/products/feeders/feederscreen" className="hover:text-black transition-colors">Feeder Screen</a>
                     <a href="/products/feeders/panfeeder" className="hover:text-black transition-colors">Pan Feeder</a>
                     <div className="font-semibold text-base mt-4 mb-2">
-                      <a href="/products/impactors" className="hover:text-black transition-colors">Impactors</a>
+                      <a href="/products/impactors/impactors" className="hover:text-black transition-colors">Impactors</a>
                     </div>
                     <a href="/products/impactors/verticalshiftimpactor" className="hover:text-black transition-colors">Vertical Shift Impactor</a>
                     <a href="/products/impactors/horizontalshiftimpactor" className="hover:text-black transition-colors">Horizontal Shift Impactor</a>
@@ -164,30 +164,30 @@ export default function Header() {
                   {/* Column 5: Screens, Washing, Classifier */}
                   <div className="flex flex-col space-y-3">
                     <div className="font-semibold text-base mb-2">
-                      <a href="/products/screens" className="hover:text-black transition-colors">Screens</a>
+                      <a href="/products/screens/screens" className="hover:text-black transition-colors">Screens</a>
                     </div>
                     <a href="/products/screens/vibratingscreen" className="hover:text-black transition-colors">Vibrating Screen</a>
                     <div className="font-semibold text-base mt-4 mb-2">
-                      <a href="/products/washingsystems" className="hover:text-black transition-colors">Washing Systems</a>
+                      <a href="/products/washingsystems/washingsystems" className="hover:text-black transition-colors">Washing Systems</a>
                     </div>
                     <a href="/products/washingsystems/sandwasher" className="hover:text-black transition-colors">Sand Washer</a>
                     <a href="/products/washingsystems/dualsandwasher" className="hover:text-black transition-colors">Dual Sand Washer</a>
                     <div className="font-semibold text-base mt-4 mb-2">
-                      <a href="/products/classifier" className="hover:text-black transition-colors">Classifier</a>
+                      <a href="/products/classifier/classifier" className="hover:text-black transition-colors">Classifier</a>
                     </div>
                     <a href="/products/classifier/proairclassifier" className="hover:text-black transition-colors">Pro Air Classifier</a>
                   </div>
                   <div className="font-semibold text-base mb-2">
-                    <a href="/products/concretebatchingsolution" className="hover:text-black transition-colors">Concerete Batching Solution </a>
+                    <a href="/products/concretebatchingsolution/concretebatchingsolution" className="hover:text-black transition-colors">Concerete Batching Solution </a>
                   </div>
                   <div className="font-semibold text-base mb-2">
-                    <a href="/products/mechanicalroadpaver" className="hover:text-black transition-colors">Mechanical Road Paver </a>
+                    <a href="/products/mechanicalroadpaver/mechanicalroadpaver" className="hover:text-black transition-colors">Mechanical Road Paver </a>
                   </div>
                   <div className="font-semibold text-base mb-2">
-                    <a href="/products/evdumpertruck" className="hover:text-black transition-colors">EV -  Dumper Truck </a>
+                    <a href="/products/evdumpertruck/evdumpertruck" className="hover:text-black transition-colors">EV -  Dumper Truck </a>
                   </div>
                   <div className="font-semibold text-base mb-2">
-                    <a href="/products/evtractortrailertruck" className="hover:text-black transition-colors">EV- Tractor Trailer Truck </a>
+                    <a href="/products/evtractortrailertruck/evtractortrailertruck" className="hover:text-black transition-colors">EV- Tractor Trailer Truck </a>
                   </div>
                 </div>
               </div>

@@ -37,7 +37,7 @@ export default function FaqSection() {
     <div className="flex flex-col lg:flex-row items-center justify-between px-6 py-16 max-w-7xl mx-auto">
       {/* Left Side: FAQ */}
       <div className="w-full lg:w-1/2">
-        <h2 className="text-4xl font-bold mb-6 ">Why Choose Hefty</h2>
+        <h2 className="text-blue-900 text-4xl font-bold mb-6 ">Why Choose Hefty</h2>
         {faqs.map((faq, index) => (
           <div
             key={index}
@@ -49,7 +49,7 @@ export default function FaqSection() {
             <div className="flex justify-between items-center">
               <p
                 className={`font-semibold text-lg ${
-                  index === activeIndex ? "text-[#ec6b24]" : "text-black"
+                  index === activeIndex ? "text-[#ec6b24]" : "text-blue-900"
                 }`}
               >
                 {faq.question}

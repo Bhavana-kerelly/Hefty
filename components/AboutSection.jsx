@@ -9,7 +9,7 @@ export default function AboutSection() {
         />
       </div>
       <div className="w-full md:w-1/2">
-        <h2 className="text-2xl md:text-3xlfont-bold mb-5">
+        <h2 className="text-blue-900 text-2xl md:text-3xlfont-bold mb-5">
           Hefty: Where strength meets smart engieering.
         </h2>
         <p className="text-sm md:text-base mb-6 leading-relaxed">
