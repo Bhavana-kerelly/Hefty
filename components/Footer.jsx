@@ -77,10 +77,10 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <h4 className="font-semibold text-lg mb-4 text-blue-900">Contact Info</h4>
             <address className="not-italic text-sm text-blue-900 space-y-2">
-              <p>123 Hefty Drive, Suite 456</p>
-              <p>Financial City, FL 12345</p>
-              <p>Email: <a href="mailto:info@hefty.com" className="hover:text-blue-400 transition-colors duration-300">info@hefty.com</a></p>
-              <p>Phone: <a href="tel:+1-800-555-0199" className="hover:text-blue-400 transition-colors duration-300">+1 (800) 555-0199</a></p>
+              <p>Hyderabad</p>
+              {/* <p>Financial City, FL 12345</p> */}
+              <p>Email: <a href="mailto:heftyofficial2025@gmail.com" className="hover:text-blue-400 transition-colors duration-300">info@hefty.com</a></p>
+              <p>Phone: <a href="tel:+91 7337500757" className="hover:text-blue-400 transition-colors duration-300">+1 (800) 555-0199</a></p>
             </address>
           </div>
           

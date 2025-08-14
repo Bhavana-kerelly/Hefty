@@ -47,7 +47,7 @@ export default function ContactPage() {
         >
           <h1 className="text-4xl font-bold text-black">Contact Hefty</h1>
           <p className=" text-gray-500 text-sm">
-            For personalized financial strategies, investment insights, or queries, connect with us confidently.
+            Reach out today and experience Hefty’s commitment to quality, reliability, and unmatched support for Screening and Crushers Equipment
           </p>
 
           <div className="space-y-4 text-gray-200 text-sm">
@@ -55,24 +55,21 @@ export default function ContactPage() {
               <MapPin className="text-blue-300 w-5 h-5 mt-1" />
               <div className=" text-gray-700">
                 <span className="font-medium text-gray-700">Head Office:</span><br />
-                E-63, 1nd Floor, Above Shiva Homeo Care<br />
-                Madhuranagar, Hyderabad – 500038
+                Hyderabad
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <Phone className="text-blue-300 w-5 h-5 mt-1" />
               <div className=" text-gray-700">
                 <span className="font-medium text-gray-700">Phone:</span><br />
-                +91 9951606993, +91 8978606993
+                +91 7337500757
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <Mail className="text-blue-300 w-5 h-5 mt-1" />
               <div className=" text-gray-700">
                 <span className="font-medium text-gray-700">Email:</span><br />
-                www.nihalfinserv.com<br />
-                nihalfinserv@gmail.com<br />
-                althaf2286@gmail.com
+                heftyofficial2025@gmail.com
               </div>
             </div>
             <div className="flex items-start space-x-3">

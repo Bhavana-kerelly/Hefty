@@ -64,45 +64,9 @@ export default function Header() {
   </a>
 
   {/* Company Dropdown */}
-  <div className="relative group">
-    <a
-      href="#"
-      className="relative px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32] flex items-center"
-    >
-      Company
-      <svg
-        className="ml-2 w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth={2}
-        viewBox="0 0 24 24"
-      >
-        <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-      </svg>
-    </a>
-
-    {/* Dropdown Menu */}
-    <div className="absolute left-0 hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 w-48 z-50">
-      <a
-        href="#about"
-        className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
-      >
-        About Us
-      </a>
-      <a
-        href="#team"
-        className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
-      >
-        Our Team
-      </a>
-      <a
-        href="#careers"
-        className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
-      >
-        Careers
-      </a>
-    </div>
-  </div>
+  <a href="/about" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
+            About Us
+          </a>
 
           
 
@@ -197,9 +161,7 @@ export default function Header() {
               </div>
             )}
           </div>
-          <a href="/blogs" className="relative group px-3 py-2  transition-colors duration-300 hover:text-[#e96a32]">
-            Blogs
-          </a>
+          
           <a href="/facilities" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
             Facilities
           </a>
@@ -209,8 +171,11 @@ export default function Header() {
           <a href="/services-and-parts" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
             Services & Parts
           </a>
-          <a href="/news" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
+          {/* <a href="/news" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
             News
+          </a> */}
+          <a href="/blogs" className="relative group px-3 py-2  transition-colors duration-300 hover:text-[#e96a32]">
+            Blogs
           </a>
           <a href="/contact" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
             Contact Us
@@ -222,7 +187,7 @@ export default function Header() {
                           rel="noopener noreferrer"
                           className="text-blue-900 transition-colors duration-300 hover:text-[#e96a32]"
                         >
-                          <FaFacebookF size={20} />
+                          <FaFacebookF size={15} />
                         </a>
                         <a
                           href="https://x.com/Hefty_hyd "
@@ -230,7 +195,7 @@ export default function Header() {
                           rel="noopener noreferrer"
                           className="text-blue-900 transition-colors duration-300 hover:text-[#e96a32]"
                         >
-                          <FaTwitter size={20} />
+                          <FaTwitter size={15} />
                         </a>
                         <a
                           href="https://www.linkedin.com/company/108119796"
@@ -238,7 +203,7 @@ export default function Header() {
                           rel="noopener noreferrer"
                           className="text-blue-900 transition-colors duration-300 hover:text-[#e96a32]"
                         >
-                          <FaLinkedinIn size={20} />
+                          <FaLinkedinIn size={15} />
                         </a>
                         <a
                           href="https://www.instagram.com/hefty_hyd/"
@@ -246,7 +211,7 @@ export default function Header() {
                           rel="noopener noreferrer"
                           className="text-blue-900 transition-colors duration-300 hover:text-[#e96a32]"
                         >
-                          <FaInstagram size={20} />
+                          <FaInstagram size={15} />
                         </a>
                       </div>
         </nav>
@@ -347,15 +312,16 @@ export default function Header() {
               </div>
             )}
           </div>
-          <a href="/blogs" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">Blogs</a>
+         
           <a href="/facilities" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">Facilities</a>
           <a href="/international" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">International</a>
           <a href="/services-and-parts" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">Services & Parts</a>
-          <a href="/news" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">News</a>
+           <a href="/blogs" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">Blogs</a>
+          {/* <a href="/news" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">News</a> */}
           <a href="/contact" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">Contact Us</a>
 
           {/* Hire Us Button (Mobile) */}
-          <div className="flex items-center space-x-2">
+          {/* <div className="flex items-center space-x-2">
       <label htmlFor="language" className="text-sm font-medium text-gray-700">
         Select Language:
       </label>
@@ -371,7 +337,7 @@ export default function Header() {
         <option value="id">Indonesian</option>
         <option value="ru">Russian</option>
       </select>
-    </div>
+    </div> */}
         </nav>
       )}
     </header>
