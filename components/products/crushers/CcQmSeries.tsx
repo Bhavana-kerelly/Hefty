@@ -29,18 +29,18 @@ export default function Crushers() {
           {/* Right Side */}
           <div className="text-gray-700 text-lg space-y-6">
             <h2 className="text-3xl md:text-4xl font-semibold text-blue-900 hover:text-[#ec6b24] leading-tight mb-6">
-             ROLL CRUSHER
+             CONE CRUSHER (QM SERIES) :
             </h2>
             <p className='text-base text-gray-700'>
-            New generation Roll Crusher has been designed using latest engineering tools for high reliability. It has premium features like high-efficiency gear drive and hydraulic gap management. Its features and the unique design help manufacture sand at lowest possible power consumption and liner wear cost.
+             Hefty QM series Cone Crushers combine the best power utilization per cone diameter, cavity design of higher density, optimized crusher speed and efficient throw. The higher cavity density improves the inter-particle crushing action.
             </p>
             <p className="text-base text-gray-700">Product Highlights:</p>
             <ol className='text-base text-gray-700'>
-              <li>High efficiency & low peripheral speed to deliver high savings in power & wear cost.</li>
-              <li>Robust, reliable and safe design.</li>
-              <li>Hydraulics for medium pressure grinding with high crushing forces.</li>
-              <li>Large diameter and extra thick liner design allow larger feed size and high liner change interval.</li>
-              <li>Hydraulics ensure operating gap is maintained to ensure desired output size & low percentage recycle.</li>
+              <li>Propel QM series cone crushers provide unbeatable performance in secondary & tertiary applications.</li>
+                <li>They provide high product yield with desired shape and gradation.</li>
+<li>They have hydraulic setting adjustment, tramp release and design cavity clearing.</li>
+<li>Hydro dynamic high alloy bronze bearing design provides better load capability in the dusty, high shock crushing environment.</li>
+<li>Automatic closed side setting (CSS) (optional).</li>
             </ol>
             
           </div>

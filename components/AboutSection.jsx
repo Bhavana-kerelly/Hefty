@@ -5,7 +5,7 @@ export default function AboutSection() {
         <img
           src="/About.jpg" // Replace with your actual image path
           alt="Office"
-          className="rounded shadow object-cover w-full h-[300px] md:h-[400px]"
+          className="rounded shadow object-cover w-[600px] h-[300px] md:h-[400px]"
         />
       </div>
       <div className="w-full md:w-1/2">

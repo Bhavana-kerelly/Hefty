@@ -8,6 +8,9 @@ import Footer from "@/components/Footer";
 import Crushers from "@/components/products/crushers/Crushers";
 import JawCrushers from "@/components/products/crushers/JawCrushers";
 import ConeCrushers from "@/components/products/crushers/ConeCrushers";
+import CcAvcSeries from "@/components/products/crushers/CcAvcSeries";
+import CcQmSeries from "@/components/products/crushers/CcQmSeries";
+import GyratoryConeCrusher from "@/components/products/crushers/GyratoryConeCrusher";
 import RollCrushers from "@/components/products/crushers/RollCrushers";
 
 
@@ -57,6 +60,9 @@ const productsMap: Record<string, React.ComponentType> = {
   crushers: Crushers,
   jawcrushers: JawCrushers,
   conecrushers: ConeCrushers,
+  ccavcseries: CcAvcSeries,
+  ccqmseries: CcQmSeries,
+  gyratoryconecrusher: GyratoryConeCrusher,
   rollcrushers: RollCrushers,
   
 

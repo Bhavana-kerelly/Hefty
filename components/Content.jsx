@@ -89,7 +89,7 @@ export default function SoftwareOutsourcing() {
             {section.hasButton && (
               <button
                 className="mt-8 px-6 py-3 font-semibold rounded-full bg-black text-white hover:bg-gray-800 transition-colors"
-                onClick={() => handleClick("/products/read-more")}
+                onClick={() => handleClick("/products/crushers/crushers")}
               >
                 Read More
               </button>

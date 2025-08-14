@@ -72,7 +72,7 @@ export default function FaqSection() {
         <img
           src="/path/to/your-image.jpg" // Replace with your image path
           alt="Description of your image" // Provide a descriptive alt text
-          className="w-full h-auto object-cover rounded-lg shadow-lg"
+          className="w-[500px] h-[400px] object-cover rounded-lg shadow-lg"
         />
       </div>
     </div>

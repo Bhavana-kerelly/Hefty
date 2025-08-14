@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 
 
 export default function Header() {
@@ -41,11 +42,11 @@ export default function Header() {
         <div className="hidden md:flex font-bold flex-shrink-0">
       <Link href="/" className="flex items-center">
         <Image
-          src="/Logo.jpg"
+          src="/Logo1.jpg"
           alt="Nihal Finserv"
           width={125}
           height={30}
-          className="h-auto w-auto shadow-lg"
+          className="h-auto w-auto "
           priority // optional: ensures logo loads quickly
         />
       </Link>
@@ -107,7 +108,7 @@ export default function Header() {
 
           {/* Products Dropdown - Mouse events are on this parent div */}
           <div
-            className="relative group h-full flex items-center"
+            className="relative group h-full flex items-center hover:text-[#e96a32]"
             onMouseEnter={() => handleMouseEnter("products")}
             onMouseLeave={handleMouseLeave}
           >
@@ -124,6 +125,9 @@ export default function Header() {
                     </div>
                     <a href="/products/crushers/jawcrushers" className="hover:text-black transition-colors">Jaw Crushers</a>
                     <a href="/products/crushers/conecrushers" className="hover:text-black transition-colors">Cone Crushers</a>
+                    <a href="/products/crushers/ccavcseries" className="hover:text-black transition-colors">Cone Crushers AVC Series</a>
+                    <a href="/products/crushers/ccqmseries" className="hover:text-black transition-colors">Cone Crushers QM Series</a>
+                    <a href="/products/crushers/gyratoryconecrusher" className="hover:text-black transition-colors">Gyratory Cone Crusher</a>
                     <a href="/products/crushers/rollcrushers" className="hover:text-black transition-colors">Roll Crushers</a>
                   </div>
                   {/* Column 2: Mobile Series */}
@@ -211,6 +215,40 @@ export default function Header() {
           <a href="/contact" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
             Contact Us
           </a>
+          <div className="mt-6 flex space-x-4">
+                        <a
+                          href="https://www.facebook.com/profile.php?id=61578856662236"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-900 transition-colors duration-300 hover:text-[#e96a32]"
+                        >
+                          <FaFacebookF size={20} />
+                        </a>
+                        <a
+                          href="https://x.com/Hefty_hyd "
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-900 transition-colors duration-300 hover:text-[#e96a32]"
+                        >
+                          <FaTwitter size={20} />
+                        </a>
+                        <a
+                          href="https://www.linkedin.com/company/108119796"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-900 transition-colors duration-300 hover:text-[#e96a32]"
+                        >
+                          <FaLinkedinIn size={20} />
+                        </a>
+                        <a
+                          href="https://www.instagram.com/hefty_hyd/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-900 transition-colors duration-300 hover:text-[#e96a32]"
+                        >
+                          <FaInstagram size={20} />
+                        </a>
+                      </div>
         </nav>
         {/* Mobile Hamburger Button */}
         <div className="md:hidden p-4">

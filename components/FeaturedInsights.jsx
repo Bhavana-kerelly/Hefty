@@ -47,7 +47,7 @@ export default function FeaturedInsights() {
             <img
               src={item.image}
               alt={item.title}
-              className="w-full h-48 object-cover"
+              className="w-[300px] h-[150px] object-cover"
             />
             <div className="p-4">
               <h3 className="text-blue-900 font-semibold text-lg transition-colors duration-300 hover:text-orange-500">

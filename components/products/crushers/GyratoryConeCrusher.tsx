@@ -29,18 +29,18 @@ export default function Crushers() {
           {/* Right Side */}
           <div className="text-gray-700 text-lg space-y-6">
             <h2 className="text-3xl md:text-4xl font-semibold text-blue-900 hover:text-[#ec6b24] leading-tight mb-6">
-             ROLL CRUSHER
+              GYRATORY CONE CRUSHER (AVCG SERIES)
             </h2>
             <p className='text-base text-gray-700'>
-            New generation Roll Crusher has been designed using latest engineering tools for high reliability. It has premium features like high-efficiency gear drive and hydraulic gap management. Its features and the unique design help manufacture sand at lowest possible power consumption and liner wear cost.
+             The Gyratory Cone Crusher delivers increased capacity with reduced maintenance and downtime. It guarantees trouble-free operation in varying feed conditions with a high reduction ratio. It has large and stable feed opening, steep cavity and effective strokes.
             </p>
             <p className="text-base text-gray-700">Product Highlights:</p>
             <ol className='text-base text-gray-700'>
-              <li>High efficiency & low peripheral speed to deliver high savings in power & wear cost.</li>
-              <li>Robust, reliable and safe design.</li>
-              <li>Hydraulics for medium pressure grinding with high crushing forces.</li>
-              <li>Large diameter and extra thick liner design allow larger feed size and high liner change interval.</li>
-              <li>Hydraulics ensure operating gap is maintained to ensure desired output size & low percentage recycle.</li>
+              <li>High crushing performance and low operational costs.</li>
+              <li>Two piece concave system, Increased bottom shell product discharge area.</li>
+              <li>Removable top shell liner, advanced automation system for CSS adjusting.</li>
+              <li>Constant feed opening crushing chamber. Large feed opening to match application and field adjustable crushing stroke.</li>
+              <li>Spider bush eliminates capacity loss caused with plain bearing wear. Quiet operation.</li>
             </ol>
             
           </div>

@@ -29,18 +29,17 @@ export default function Crushers() {
           {/* Right Side */}
           <div className="text-gray-700 text-lg space-y-6">
             <h2 className="text-3xl md:text-4xl font-semibold text-blue-900 hover:text-[#ec6b24] leading-tight mb-6">
-             ROLL CRUSHER
+              CONE CRUSHER : (AVC SERIES)
             </h2>
             <p className='text-base text-gray-700'>
-            New generation Roll Crusher has been designed using latest engineering tools for high reliability. It has premium features like high-efficiency gear drive and hydraulic gap management. Its features and the unique design help manufacture sand at lowest possible power consumption and liner wear cost.
+             The AVC Series of Hefty Cone Crusher offers the higher crushing efficiency and end product quality with lower cost per ton production. These crushers feature a unique combination of crusher speed, throw and cavity design.
             </p>
             <p className="text-base text-gray-700">Product Highlights:</p>
             <ol className='text-base text-gray-700'>
-              <li>High efficiency & low peripheral speed to deliver high savings in power & wear cost.</li>
-              <li>Robust, reliable and safe design.</li>
-              <li>Hydraulics for medium pressure grinding with high crushing forces.</li>
-              <li>Large diameter and extra thick liner design allow larger feed size and high liner change interval.</li>
-              <li>Hydraulics ensure operating gap is maintained to ensure desired output size & low percentage recycle.</li>
+              <li>Availability of specially defined chambers to crush coarse/fine feed materials and also to cover open / closed circuit.</li>
+              <li>Dual-dust seal system.</li>
+              <li>Bigger mantle diameter combined with effective speed to enhance productivity.</li>
+              <li>User-friendly SMS system.</li>
             </ol>
             
           </div>
