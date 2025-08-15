@@ -88,32 +88,33 @@ export default function Header() {
                       <a href="/products/crushers/crushers" className="text-[#e96a32] hover:text-black transition-colors">Crushers</a>
                     </div>
                     <a href="/products/crushers/jawcrushers" className="hover:text-black transition-colors">Jaw Crushers</a>
-                    <a href="/products/crushers/conecrushers" className="space-y-1 hover:text-black transition-colors">Cone Crushers</a>
-                    <a href="/products/crushers/ccavcseries" className="ml-4 hover:text-black transition-colors">Cone Crushers AVC Series</a>
-                    <a href="/products/crushers/ccqmseries" className="ml-4 hover:text-black transition-colors">Cone Crushers QM Series</a>
-                    <a href="/products/crushers/gyratoryconecrusher" className="hover:text-black transition-colors">Gyratory Cone Crusher</a>
+                    <a href="/products/crushers/conecrushers" className="hover:text-black transition-colors">Cone Crushers</a>
+                    <a href="/products/crushers/ccavcseries" className="ml-5 hover:text-black transition-colors">Cone Crushers AVC Series</a>
+                    <a href="/products/crushers/ccqmseries" className="ml-5 hover:text-black transition-colors">Cone Crushers QM Series</a>
+                    <a href="/products/crushers/gyratoryconecrusher" className="ml-5 hover:text-black transition-colors">Gyratory Cone Crusher</a>
                     <a href="/products/crushers/rollcrushers" className="hover:text-black transition-colors">Roll Crushers</a>
                   </div>
                   {/* Column 2: Mobile Series */}
-                  <div className="flex flex-col space-y-2">
+                  <div className="flex flex-col space-y-3">
                     <div className="font-semibold text-base mb-2">
                       <a href="/products/mobileseries/mobileseries" className="text-[#e96a32] hover:text-black transition-colors">Mobile Series</a>
                     </div>
-                    <a href="/products/mobileseries/trackmountedjawcrusher" className="space-y-1 hover:text-black transition-colors">Track Mounted Jaw Crusher</a>
-                    <a href="/products/mobileseries/jaw811" className="ml-4 hover:text-black transition-colors">Jaw 811</a>
-                    <a href="/products/mobileseries/jaw811s" className="ml-4 hover:text-black transition-colors">Jaw 811S</a>
-                    <a href="/products/mobileseries/trackmountedconecrusher" className="space-y-1 hover:text-black transition-colors">Track Mounted Cone Crusher</a>
-                    <a href="/products/mobileseries/tmcavc" className="ml-4 hover:text-black transition-colors">Track Mounted Cone Crusher AVC</a>
-                    <a href="/products/mobileseries/tmcqm" className="ml-4 hover:text-black transition-colors">Track Mounted Cone Crusher QM</a>
-                    <a href="/products/mobileseries/trackmountedendurer" className="space-y-1 hover:text-black transition-colors">Track Mounted Endurer</a>
-                    <a href="/products/mobileseries/tmeqm" className="ml-4 hover:text-black transition-colors">Track Mounted Endurer QM</a>
-                    <a href="/products/mobileseries/tmeavc" className="ml-4 hover:text-black transition-colors">Track Mounted Endurer AVC</a>
-                    
-                    <a href="/products/mobileseries/trackmountedscreen" className="space-y-1 hover:text-black transition-colors">Track Mounted Screen</a>
-                    <a href="/products/mobileseries/tms3deck" className="ml-4 hover:text-black transition-colors">Track Mounted Screen 3 Deck</a>
-                    <a href="/products/mobileseries/tms4deck" className="ml-4 hover:text-black transition-colors">Track Mounted Screen 4 Deck</a>
+                    <a href="/products/mobileseries/trackmountedverticalshiftimpactor" className="hover:text-black transition-colors">TM Vertical Shift Impactor</a>
                     <a href="/products/mobileseries/trackmountedscalper" className="hover:text-black transition-colors">Track Mounted Scalper</a>
-                    <a href="/products/mobileseries/trackmountedverticalshiftimpactor" className="hover:text-black transition-colors">Track Mounted Vertical Shift Impactor</a>
+                    <a href="/products/mobileseries/trackmountedjawcrusher" className="hover:text-black transition-colors">Track Mounted Jaw Crusher</a>
+                    <a href="/products/mobileseries/jaw811" className="ml-6 hover:text-black transition-colors">Jaw 811</a>
+                    <a href="/products/mobileseries/jaw811s" className="ml-6 hover:text-black transition-colors">Jaw 811S</a>
+                    <a href="/products/mobileseries/trackmountedconecrusher" className="hover:text-black transition-colors">Track Mounted Cone Crusher</a>
+                    <a href="/products/mobileseries/tmcavc" className="ml-6 hover:text-black transition-colors">Track Mounted Cone Crusher AVC</a>
+                    <a href="/products/mobileseries/tmcqm" className="ml-6 hover:text-black transition-colors">Track Mounted Cone Crusher QM</a>
+                    <a href="/products/mobileseries/trackmountedendurer" className="hover:text-black transition-colors">Track Mounted Endurer</a>
+                    <a href="/products/mobileseries/tmeqm" className="ml-6 hover:text-black transition-colors">Track Mounted Endurer QM</a>
+                    <a href="/products/mobileseries/tmeavc" className="ml-6 hover:text-black transition-colors">Track Mounted Endurer AVC</a>
+                   
+                    <a href="/products/mobileseries/trackmountedscreen" className="hover:text-black transition-colors">Track Mounted Screen</a>
+                    <a href="/products/mobileseries/tms3deck" className="ml-6 hover:text-black transition-colors">Track Mounted Screen 3 Deck</a>
+                    <a href="/products/mobileseries/tms4deck" className="ml-6 hover:text-black transition-colors">Track Mounted Screen 4 Deck</a>
+                    
                   </div>
                   {/* Column 3: Semi Mobile Series classifier*/}
                   <div className="flex flex-col space-y-3">
@@ -121,9 +122,9 @@ export default function Header() {
                       <a href="/products/semimobileseries/semimobileseries" className="text-[#e96a32] hover:text-black transition-colors">Semi Mobile Series</a>
                     </div>
                     <a href="/products/semimobileseries/profastjaw" className="hover:text-black transition-colors">Pro Fast Jaw</a>
-                    <a href="/products/semimobileseries/profastcone" className="space-y-1 hover:text-black transition-colors">Pro Fast Cone</a>
-                    <a href="/products/semimobileseries/prfmqseries" className="ml-4 hover:text-black transition-colors">Pro Fast MQ Series</a>
-                    <a href="/products/semimobileseries/prfmcseries" className="ml-4 hover:text-black transition-colors">Pro Fast MC Series</a>
+                    <a href="/products/semimobileseries/profastcone" className="hover:text-black transition-colors">Pro Fast Cone</a>
+                    <a href="/products/semimobileseries/prfmqseries" className="hover:text-black transition-colors">Pro Fast MQ Series</a>
+                    <a href="/products/semimobileseries/prfmcseries" className="hover:text-black transition-colors">Pro Fast MC Series</a>
                     <a href="/products/semimobileseries/profastverticalshiftimpactor" className="hover:text-black transition-colors">Pro Fast Vertical Shift Impactor</a>
                     <div className="font-semibold text-base mt-4 mb-2">
                       <a href="/products/classifier/classifier" className="text-[#e96a32] hover:text-black transition-colors">Classifier</a>
