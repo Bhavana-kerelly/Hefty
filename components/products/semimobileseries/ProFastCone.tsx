@@ -6,8 +6,8 @@ import { CheckCircle } from "lucide-react";
 import ContactSection from '@/components/ContactSection';
 
 const industries = [
-    { name: "PROFAST CONE PRFMQ SERIES", link: "#products/crushers/ccavcseries" },
-    { name: "PROFAST CONE PRFMC SERIES", link: "#products/crushers/ccqmseries" },
+    { name: "PROFAST CONE PRFMQ SERIES", link: "#products/semimobileseries/prfmqseries" },
+    { name: "PROFAST CONE PRFMC SERIES", link: "#products/semimobileseries/prfmcseries" },
 
   ];
 

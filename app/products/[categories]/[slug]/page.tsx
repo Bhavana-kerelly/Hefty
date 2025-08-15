@@ -24,6 +24,8 @@ import TrackMountedVerticalShiftImpactor from "@/components/products/mobileserie
 
 import SemiMobileSeries from "@/components/products/semimobileseries/SemiMobileSeries";
 import ProFastCone from "@/components/products/semimobileseries/ProFastCone";
+import PrfmqSeries from "@/components/products/semimobileseries/PrfmqSeries";
+import PrfmcSeries from "@/components/products/semimobileseries/PrfmcSeries";
 import ProFastJaw from "@/components/products/semimobileseries/ProFastJaw";
 import ProFastVerticalShiftImpactor from "@/components/products/semimobileseries/ProFastVerticalShiftImpactor";
 
@@ -77,6 +79,8 @@ const productsMap: Record<string, React.ComponentType> = {
 
   semimobileseries: SemiMobileSeries,
   profastcone: ProFastCone,
+  prfmqseries: PrfmqSeries,
+  prfmcseries: PrfmcSeries,
   profastjaw: ProFastJaw,
   profastverticalshiftimpactor: ProFastVerticalShiftImpactor,
 
