@@ -19,7 +19,7 @@ const steps = [
   "Track-mounted design for full site mobility"
 ];
 
-export default function AIChatbotFinancing() {
+export default function TrackMountedJawCrusher() {
   return (
     <>
       {/* Hero Section */}
@@ -50,7 +50,7 @@ export default function AIChatbotFinancing() {
           <div>
             <div className="rounded-xl overflow-hidden shadow-md">
               <Image
-                src="/crushers/J2.jpg"
+                src="/mobileseries/TJ2.jpg"
                 alt="Chatbot Financing Scope"
                 width={700}
                 height={400}
@@ -154,7 +154,7 @@ export default function AIChatbotFinancing() {
       
                 <div className="w-full rounded-xl overflow-hidden shadow-md">
                   <Image
-                    src="/crushers/J3.jpg"
+                    src="/mobileseries/TJ3.jpg"
                     alt="Documents"
                     width={800}
                     height={500}

@@ -12,7 +12,7 @@ const industries = [
   ];
 
 
-export default function AIChatbotFinancing() {
+export default function Jaw() {
   return (
     <>
       {/* Hero Section */}

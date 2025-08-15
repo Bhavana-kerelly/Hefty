@@ -5,7 +5,7 @@ import { CheckCircle } from "lucide-react";
 
 import ContactSection from '@/components/ContactSection';
 
-export default function Crushers() {
+export default function GyratoryConeCrusher() {
   return (
     <>
 

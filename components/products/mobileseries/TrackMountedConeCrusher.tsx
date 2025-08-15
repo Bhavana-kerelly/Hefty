@@ -19,7 +19,7 @@ const steps = [
   "Low maintenance requirements for minimal downtime"
 ];
 
-export default function AIChatbotFinancing() {
+export default function TrackMountedConeCrusher() {
   return (
     <>
       {/* Hero Section */}

@@ -13,7 +13,7 @@ const industries = [
   ];
 
 
-export default function AIChatbotFinancing() {
+export default function ConeCrusher() {
   return (
     <>
       {/* Hero Section */}

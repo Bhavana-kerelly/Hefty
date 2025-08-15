@@ -14,7 +14,7 @@ const steps = [
 "Metallurgy: Preparing ores for further processing",
 ];
 
-export default function AIChatbotFinancing() {
+export default function JawCrusher() {
   return (
     <>
       {/* Hero Section */}

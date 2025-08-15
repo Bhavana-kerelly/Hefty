@@ -12,7 +12,7 @@ const industries = [
   ];
 
 
-export default function AIChatbotFinancing() {
+export default function TmcAvc() {
   return (
     <>
       {/* Hero Section */}
