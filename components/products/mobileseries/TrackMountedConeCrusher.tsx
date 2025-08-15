@@ -6,8 +6,8 @@ import { CheckCircle } from "lucide-react";
 import ContactSection from '@/components/ContactSection';
 
 const industries = [
-    { name: "Track Mounted Cone – QM Series", link: "#products/crushers/ccavcseries" },
-    { name: "Track Mounted Cone – AVC Series", link: "#products/crushers/ccqmseries" },
+    { name: "Track Mounted Cone – QM Series", link: "/products/mobileseries/tmcqm" },
+    { name: "Track Mounted Cone – AVC Series", link: "/products/mobileseries/tmcavc" },
 
   ];
 

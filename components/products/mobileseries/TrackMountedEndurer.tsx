@@ -6,8 +6,8 @@ import { CheckCircle } from "lucide-react";
 import ContactSection from '@/components/ContactSection';
 
 const industries = [
-    { name: "Track Mounted Endurer – QM Series", link: "#products/crushers/ccavcseries" },
-    { name: "Track Molunted Endurer – AVC Series", link: "#products/crushers/ccqmseries" },
+    { name: "Track Mounted Endurer – QM Series", link: "/products/mobileseries/tmeqm" },
+    { name: "Track Molunted Endurer – AVC Series", link: "/products/mobileseries/tmeavc" },
 
   ];
 

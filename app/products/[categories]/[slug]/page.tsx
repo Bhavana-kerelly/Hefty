@@ -16,10 +16,18 @@ import RollCrushers from "@/components/products/crushers/RollCrushers";
 
 import MobileSeries from "@/components/products/mobileseries/MobileSeries";
 import TrackMountedConeCrusher from "@/components/products/mobileseries/TrackMountedConeCrusher";
+import TmcQm from "@/components/products/mobileseries/TmcQm";
+import TmcAvc from "@/components/products/mobileseries/TmcAvc";
 import TrackMountedEndurer from "@/components/products/mobileseries/TrackMountedEndurer";
+import TmeQm from "@/components/products/mobileseries/TmeQm";
+import TmeAvc from "@/components/products/mobileseries/TmeAvc";
 import TrackMountedJawCrusher from "@/components/products/mobileseries/TrackMountedJawCrusher";
+import Jaw811 from "@/components/products/mobileseries/Jaw811";
+import Jaw811S from "@/components/products/mobileseries/Jaw811S";
 import TrackMountedScalper from "@/components/products/mobileseries/TrackMountedScalper";
 import TrackMountedScreen from "@/components/products/mobileseries/TrackMountedScreen";
+import Tms3Deck from "@/components/products/mobileseries/Tms3Deck";
+import Tms4Deck from "@/components/products/mobileseries/Tms4Deck";
 import TrackMountedVerticalShiftImpactor from "@/components/products/mobileseries/TrackMountedVerticalShiftImpactor";
 
 import SemiMobileSeries from "@/components/products/semimobileseries/SemiMobileSeries";
@@ -45,6 +53,9 @@ import VibratingScreen from "@/components/products/screens/VibratingScreen";
 import WashingSystems from "@/components/products/washingsystems/WashingSystems";
 import DualSandWasher from "@/components/products/washingsystems/DualSandWasher";
 import SandWasher from "@/components/products/washingsystems/SandWasher";
+import EcoWasher from "@/components/products/washingsystems/EcoWasher";
+import ProWash from "@/components/products/washingsystems/ProWash";
+import Thickener from "@/components/products/washingsystems/Thickener";
 
 
 import Classifier from "@/components/products/classifier/Classifier";
@@ -70,10 +81,18 @@ const productsMap: Record<string, React.ComponentType> = {
 
   mobileseries: MobileSeries,
   trackmountedconecrusher: TrackMountedConeCrusher,
+  tmcqm: TmcQm,
+  tmcavc: TmcAvc,
   trackmountedendurer: TrackMountedEndurer,
+  tmeqm: TmeQm,
+  tmeavc: TmeAvc,
   trackmountedjawcrusher: TrackMountedJawCrusher,
+  jaw811: Jaw811,
+  jaw811s: Jaw811S,
   trackmountedscalper: TrackMountedScalper,
   trackmountedscreen: TrackMountedScreen,
+  tms3deck: Tms3Deck,
+  tms4deck: Tms4Deck,
   trackmountedverticalshiftimpactor: TrackMountedVerticalShiftImpactor,
 
 
@@ -100,6 +119,10 @@ const productsMap: Record<string, React.ComponentType> = {
   washingsystems: WashingSystems,
   dualsandwasher: DualSandWasher,
   sandwasher: SandWasher,
+  prowash: ProWash,
+  ecowasher: EcoWasher,
+  thickener: Thickener,
+
 
   classifier: Classifier,
   proairclassifier: ProAirClassifier,

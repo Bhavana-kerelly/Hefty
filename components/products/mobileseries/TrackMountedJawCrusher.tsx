@@ -6,8 +6,8 @@ import { CheckCircle } from "lucide-react";
 import ContactSection from '@/components/ContactSection';
 
 const industries = [
-    { name: "Tract Mounted Jaw 811", link: "#products/crushers/ccavcseries" },
-    { name: "Track Mounted Jaw 811 S", link: "#products/crushers/ccqmseries" },
+    { name: "Track Mounted Jaw 811", link: "/products/mobileseries/jaw811" },
+    { name: "Track Mounted Jaw 811 S", link: "/products/mobileseries/jaw811s" },
 
   ];
 
@@ -166,7 +166,7 @@ export default function AIChatbotFinancing() {
             <section>
         <div className="bg-white text-blue-900 px-6 py-16 mb-15 mt-10">
       <h2 className="text-3xl text-blue-900 hover:text-[#ec6b24] font-bold mb-10">
-        Types of Cone Crushers
+        Types of Track Mounted Jaw
       </h2>
       
 

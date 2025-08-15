@@ -6,8 +6,8 @@ import { CheckCircle } from "lucide-react";
 import ContactSection from '@/components/ContactSection';
 
 const industries = [
-    { name: "TMS (3 DECK)", link: "#products/crushers/ccavcseries" },
-    { name: "TMS (4 DECK)", link: "#products/crushers/ccqmseries" },
+    { name: "TMS (3 DECK)", link: "/products/mobileseries/tms3deck" },
+    { name: "TMS (4 DECK)", link: "/products/mobileseries/tms4deck" },
 
   ];
 
@@ -158,7 +158,7 @@ export default function AIChatbotFinancing() {
             <section>
         <div className="bg-white text-blue-900 px-6 py-16 mb-15 mt-10">
       <h2 className="text-3xl text-blue-900 hover:text-[#ec6b24] font-bold mb-10">
-        Types of TMS 
+        Types of TMS
       </h2>
       
 

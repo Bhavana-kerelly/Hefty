@@ -8,11 +8,10 @@ import ContactSection from '@/components/ContactSection';
 
 
 const steps = [
-  "Aggregates production",
-"Mining and minerals",
-"Construction and demolition waste recycling",
-"Cement and asphalt production",
-"Industrial material processing",
+  "Manufactured Sand Plants",
+"Quarry and Mining Operations",
+"Construction Sand Processing",
+"Recycled Aggregate Plants"
 ];
 
 export default function AIChatbotFinancing() {
@@ -22,7 +21,7 @@ export default function AIChatbotFinancing() {
       <section className="py-20 px-6 bg-[#ec6b24] text-white flex flex-col md:flex-row items-center gap-10">
         <div className="w-full md:w-1/2">
           <Image
-            src="/impactors/HI1.jpg"
+            src="/washingsystems/E1.jpg"
             alt="AI Chatbot Financing"
             width={800}
             height={500}
@@ -31,13 +30,13 @@ export default function AIChatbotFinancing() {
         </div>
         <div className="w-full md:w-1/2">
            <h2 className="text-3xl font-bold mb-5">
-           Horizontal Shaft Impactor (HSI)
+           Eco Washer
           </h2>
           <p className="text-base text-gray-200 mb-6">
-         At Hefty, our Horizontal Shaft Impactors are engineered to deliver superior performance in crushing operations. Designed for high reduction ratios and exceptional product shaping, HSIs are ideal for a wide range of materials — from soft limestone to tough basalt.
+        At Hefty, our Eco Wash system is designed for those who prioritize both high-quality output and environmental responsibility. This advanced washing technology ensures maximum efficiency in sand cleaning while minimizing water usage and reducing environmental impact.
           </p>
           <p className="text-base text-gray-200 mb-6">
-        Built with robust construction and advanced technology, our HSIs ensure consistent product quality while reducing operational downtime. Whether you’re in mining, quarrying, or recycling applications, Hefty’s HSIs combine efficiency, reliability, and versatility to meet your crushing demands.
+        The Eco Wash is built with innovative recycling mechanisms that reuse up to 90% of water, making it a perfect fit for regions with water scarcity or strict environmental regulations. Its precision-engineered design effectively removes silt, clay, and other impurities, ensuring sand that meets the highest industry standards.
           </p>
           
         </div>
@@ -49,7 +48,7 @@ export default function AIChatbotFinancing() {
           <div>
             <div className="rounded-xl overflow-hidden shadow-md">
               <Image
-                src="/impactors/HI2.jpg"
+                src="/washingsystems/E2.jpg"
                 alt="Chatbot Financing Scope"
                 width={700}
                 height={400}
@@ -62,11 +61,12 @@ export default function AIChatbotFinancing() {
              Key Features
             </h2>
           <ol className="text-base text-black mb-6">
-            <li>High Reduction Ratio – Achieves superior size reduction in a single pass.</li>
-<li>Heavy-Duty Rotor Design – Delivers maximum energy transfer for efficient crushing.</li>
-<li>Adjustable Curtain Liners – Ensures optimal product gradation and control.</li>
-<li>Durable Construction – Built to withstand heavy-duty operations with minimal wear.</li>
-<li>Low Maintenance Design – Easy access for inspection and replacement of wear parts.</li>
+            <li> Water Recycling System – Reuses water, reducing fresh water consumption.</li>
+<li>  High-Performance Cleaning – Efficiently removes silt, clay, and dust particles.</li>
+<li> Energy-Efficient Design – Optimized power usage for sustainable operations.</li>
+<li>  Low Maintenance – Durable construction for long-term reliability.</li>
+<li>Compact Footprint – Space-saving design for easy installation and mobility.</li>
+
           </ol>
         </div>
         </div>
@@ -95,23 +95,23 @@ export default function AIChatbotFinancing() {
               {/* Right Section */}
               <div className="space-y-6">
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Hydraulic adjustable curtain design, easily removable and replaceable blow bars.</h3> 
+                  <h3 className="text-xl text-white font-semibold mb-2">Maximum recovery of all material above 75 μm.</h3> 
                  
                 </div>
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Large feed opening, maximum performance rotor.</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">High frequency dewatering screens with polyurethane modular mats.</h3>
                
                 </div>
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Hydraulic crusher housing, high reduction ratio.</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Anti – turbulence inlets and weir discharge system.</h3>
                  
                 </div>
                  <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Durable Construction, robust and reliable design.</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Bucket wheel with VFD performs 75 to 80% of the work of reducing wear on pump and cyclone whilst increasing operating efficiency.</h3>
                  
                 </div>
                  <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Hydraulic arrangement maintains operating gap to ensure desired output size.</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Considerable savings in operating and maintenance costs.</h3>
                   
                 </div>
                 
@@ -125,7 +125,7 @@ export default function AIChatbotFinancing() {
                   <h2 className="text-3xl md:text-4xl font-semibold text-blue-900 hover:text-[#ec6b24] mb-4">
                     Applications
                   </h2>
-                  
+                 
                   <ul className="space-y-4">
                     {steps.map((step, idx) => (
                       <li key={idx} className="flex items-start gap-3 text-gray-800 text-base md:text-lg">
@@ -138,7 +138,7 @@ export default function AIChatbotFinancing() {
       
                 <div className="w-full rounded-xl overflow-hidden shadow-md">
                   <Image
-                    src="/impactors/HI3.jpg"
+                    src="/screena/VS3.jpg"
                     alt="Documents"
                     width={800}
                     height={500}

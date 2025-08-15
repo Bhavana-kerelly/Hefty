@@ -8,11 +8,10 @@ import ContactSection from '@/components/ContactSection';
 
 
 const steps = [
-  "Aggregates production",
-"Mining and minerals",
-"Construction and demolition waste recycling",
-"Cement and asphalt production",
-"Industrial material processing",
+  "Sand & Aggregate Washing Plants",
+"Mining & Mineral Processing",
+"Industrial Wastewater Treatment",
+"Recycled Materials Processing",
 ];
 
 export default function AIChatbotFinancing() {
@@ -22,7 +21,7 @@ export default function AIChatbotFinancing() {
       <section className="py-20 px-6 bg-[#ec6b24] text-white flex flex-col md:flex-row items-center gap-10">
         <div className="w-full md:w-1/2">
           <Image
-            src="/impactors/HI1.jpg"
+            src="/washingsystems/T1.jpg"
             alt="AI Chatbot Financing"
             width={800}
             height={500}
@@ -31,13 +30,14 @@ export default function AIChatbotFinancing() {
         </div>
         <div className="w-full md:w-1/2">
            <h2 className="text-3xl font-bold mb-5">
-           Horizontal Shaft Impactor (HSI)
+           Thickener
           </h2>
+          <p className="text-base text-gray-200 mb-6">Efficient Water Recovery for Sustainable Operations</p>
           <p className="text-base text-gray-200 mb-6">
-         At Hefty, our Horizontal Shaft Impactors are engineered to deliver superior performance in crushing operations. Designed for high reduction ratios and exceptional product shaping, HSIs are ideal for a wide range of materials — from soft limestone to tough basalt.
+       The AVTH Series Thickener is designed to deliver maximum efficiency in water recovery, making it an essential part of any sand washing and mineral processing setup. It works by allowing solid particles to settle at the bottom while the clear water overflows, enabling water recycling and reducing environmental impact.
           </p>
           <p className="text-base text-gray-200 mb-6">
-        Built with robust construction and advanced technology, our HSIs ensure consistent product quality while reducing operational downtime. Whether you’re in mining, quarrying, or recycling applications, Hefty’s HSIs combine efficiency, reliability, and versatility to meet your crushing demands.
+        With its high-rate sedimentation technology, the AVTH Series ensures faster processing, smaller footprint requirements, and reduced operational costs. Its sturdy design and automated control options make it easy to operate while maintaining consistent performance in even the most demanding conditions.
           </p>
           
         </div>
@@ -49,7 +49,7 @@ export default function AIChatbotFinancing() {
           <div>
             <div className="rounded-xl overflow-hidden shadow-md">
               <Image
-                src="/impactors/HI2.jpg"
+                src="/washingsystems/T2.jpg"
                 alt="Chatbot Financing Scope"
                 width={700}
                 height={400}
@@ -62,11 +62,12 @@ export default function AIChatbotFinancing() {
              Key Features
             </h2>
           <ol className="text-base text-black mb-6">
-            <li>High Reduction Ratio – Achieves superior size reduction in a single pass.</li>
-<li>Heavy-Duty Rotor Design – Delivers maximum energy transfer for efficient crushing.</li>
-<li>Adjustable Curtain Liners – Ensures optimal product gradation and control.</li>
-<li>Durable Construction – Built to withstand heavy-duty operations with minimal wear.</li>
-<li>Low Maintenance Design – Easy access for inspection and replacement of wear parts.</li>
+            <li>High-Rate Sedimentation – Accelerated settling for improved water clarity.</li>
+<li>Sturdy Construction – Built to handle abrasive slurries and heavy-duty applications.</li>
+<li>Space-Saving Design – Compact footprint with high efficiency.</li>
+<li>Eco-Friendly Operation – Reduces water wastage and environmental impact.</li>
+<li>Automated Controls – Optional PLC-based automation for minimal human intervention.</li>
+
           </ol>
         </div>
         </div>
@@ -95,23 +96,23 @@ export default function AIChatbotFinancing() {
               {/* Right Section */}
               <div className="space-y-6">
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Hydraulic adjustable curtain design, easily removable and replaceable blow bars.</h3> 
+                  <h3 className="text-xl text-white font-semibold mb-2">Hefty AVTH Thickener series can be used as clarifiers for removal of minerals or fines from the process water.</h3> 
                  
                 </div>
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Large feed opening, maximum performance rotor.</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Waste water from the washing systems is delivered to the center of the thickener to allow maximum time for material settlement.</h3>
                
                 </div>
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Hydraulic crusher housing, high reduction ratio.</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Gravity-based settling supported by rake mechanism allows even settlement of the sludge in the discharge area.</h3>
                  
                 </div>
                  <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Durable Construction, robust and reliable design.</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Ensures quick and safe access to the integrated cone section minimizing the time required for maintenance and maximizing equipment availability.</h3>
                  
                 </div>
                  <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Hydraulic arrangement maintains operating gap to ensure desired output size.</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Electrically driven agitator allows for easy maintenance as well as reduced inventory for parts.</h3>
                   
                 </div>
                 
@@ -138,7 +139,7 @@ export default function AIChatbotFinancing() {
       
                 <div className="w-full rounded-xl overflow-hidden shadow-md">
                   <Image
-                    src="/impactors/HI3.jpg"
+                    src="/screena/VS3.jpg"
                     alt="Documents"
                     width={800}
                     height={500}

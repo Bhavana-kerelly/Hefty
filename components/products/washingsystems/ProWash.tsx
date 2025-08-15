@@ -8,11 +8,10 @@ import ContactSection from '@/components/ContactSection';
 
 
 const steps = [
-  "Aggregates production",
-"Mining and minerals",
-"Construction and demolition waste recycling",
-"Cement and asphalt production",
-"Industrial material processing",
+  "Consistently Clean Sand – Removes impurities such as silt, clay, and dust for high-grade output.",
+"Reduced Operational Costs – Energy-efficient motors and water-saving mechanisms lower running expenses.",
+"Extended Equipment Life – Corrosion-resistant materials ensure long-lasting performance in demanding conditions.",
+"Enhanced Profitability – Produces high-quality sand that meets industry standards, increasing market value."
 ];
 
 export default function AIChatbotFinancing() {
@@ -22,7 +21,7 @@ export default function AIChatbotFinancing() {
       <section className="py-20 px-6 bg-[#ec6b24] text-white flex flex-col md:flex-row items-center gap-10">
         <div className="w-full md:w-1/2">
           <Image
-            src="/impactors/HI1.jpg"
+            src="/washingsystems/P1.jpg"
             alt="AI Chatbot Financing"
             width={800}
             height={500}
@@ -31,13 +30,10 @@ export default function AIChatbotFinancing() {
         </div>
         <div className="w-full md:w-1/2">
            <h2 className="text-3xl font-bold mb-5">
-           Horizontal Shaft Impactor (HSI)
+           Pro Wash
           </h2>
           <p className="text-base text-gray-200 mb-6">
-         At Hefty, our Horizontal Shaft Impactors are engineered to deliver superior performance in crushing operations. Designed for high reduction ratios and exceptional product shaping, HSIs are ideal for a wide range of materials — from soft limestone to tough basalt.
-          </p>
-          <p className="text-base text-gray-200 mb-6">
-        Built with robust construction and advanced technology, our HSIs ensure consistent product quality while reducing operational downtime. Whether you’re in mining, quarrying, or recycling applications, Hefty’s HSIs combine efficiency, reliability, and versatility to meet your crushing demands.
+        The Pro Wash series is engineered for superior efficiency in washing, classifying, and dewatering sand for various construction and industrial applications. With innovative technology and precision design, Pro Wash delivers unmatched cleanliness, consistent gradation, and reduced water wastage — making it the perfect solution for sustainable sand processing.
           </p>
           
         </div>
@@ -49,7 +45,7 @@ export default function AIChatbotFinancing() {
           <div>
             <div className="rounded-xl overflow-hidden shadow-md">
               <Image
-                src="/impactors/HI2.jpg"
+                src="/washingsystems/P2.jpg"
                 alt="Chatbot Financing Scope"
                 width={700}
                 height={400}
@@ -62,11 +58,12 @@ export default function AIChatbotFinancing() {
              Key Features
             </h2>
           <ol className="text-base text-black mb-6">
-            <li>High Reduction Ratio – Achieves superior size reduction in a single pass.</li>
-<li>Heavy-Duty Rotor Design – Delivers maximum energy transfer for efficient crushing.</li>
-<li>Adjustable Curtain Liners – Ensures optimal product gradation and control.</li>
-<li>Durable Construction – Built to withstand heavy-duty operations with minimal wear.</li>
-<li>Low Maintenance Design – Easy access for inspection and replacement of wear parts.</li>
+            <li>Integrated Washing & Dewatering – Ensures sand is cleaned and moisture is reduced for immediate usability.</li>
+<li>High Capacity Output – Handles large volumes without compromising on performance or quality.</li>
+<li>Eco-Friendly Design – Optimized water usage with recycling systems to minimize environmental impact.</li>
+<li>Customizable Setup – Available in multiple configurations to suit specific plant requirements.</li>
+<li>Low Maintenance – Durable components and simplified access reduce downtime and maintenance costs.</li>
+
           </ol>
         </div>
         </div>
@@ -95,23 +92,23 @@ export default function AIChatbotFinancing() {
               {/* Right Section */}
               <div className="space-y-6">
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Hydraulic adjustable curtain design, easily removable and replaceable blow bars.</h3> 
+                  <h3 className="text-xl text-white font-semibold mb-2">Feed box with rubber/PU lined reduces the material impact directly onto screen deck and increases the operational life.</h3> 
                  
                 </div>
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Large feed opening, maximum performance rotor.</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">High G force for better dewatering & water recovery.</h3>
                
                 </div>
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Hydraulic crusher housing, high reduction ratio.</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Custom cyclone options for enhanced recovery.</h3>
                  
                 </div>
                  <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Durable Construction, robust and reliable design.</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Need for secondary pump is not required as it eliminates the slurry pressure with the help of its high discharge point.</h3>
                  
                 </div>
                  <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Hydraulic arrangement maintains operating gap to ensure desired output size.</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Anti-turbulence inlets and weir discharge system. Modular construction for application flexibility sand / ores.</h3>
                   
                 </div>
                 
@@ -123,9 +120,9 @@ export default function AIChatbotFinancing() {
               <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
                 <div>
                   <h2 className="text-3xl md:text-4xl font-semibold text-blue-900 hover:text-[#ec6b24] mb-4">
-                    Applications
+                    Benifits
                   </h2>
-                  
+                 
                   <ul className="space-y-4">
                     {steps.map((step, idx) => (
                       <li key={idx} className="flex items-start gap-3 text-gray-800 text-base md:text-lg">
@@ -138,7 +135,7 @@ export default function AIChatbotFinancing() {
       
                 <div className="w-full rounded-xl overflow-hidden shadow-md">
                   <Image
-                    src="/impactors/HI3.jpg"
+                    src="/screena/VS3.jpg"
                     alt="Documents"
                     width={800}
                     height={500}
