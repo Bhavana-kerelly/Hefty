@@ -70,7 +70,7 @@ export default function FaqSection() {
       {/* Right Side: Image */}
       <div className="w-full lg:w-1/2 flex justify-center items-center mt-10 lg:mt-0 lg:pl-12">
         <img
-          src="/path/to/your-image.jpg" // Replace with your image path
+          src="/About.jpg" // Replace with your image path
           alt="Description of your image" // Provide a descriptive alt text
           className="w-[500px] h-[400px] object-cover rounded-lg shadow-lg"
         />

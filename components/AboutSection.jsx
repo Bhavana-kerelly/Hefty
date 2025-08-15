@@ -3,7 +3,7 @@ export default function AboutSection() {
     <section className="py-20 px-6 bg-white text-black flex flex-col md:flex-row items-center gap-10">
       <div className="w-full md:w-1/2">
         <img
-          src="/About.jpg" // Replace with your actual image path
+          src="/About1.jpg" // Replace with your actual image path
           alt="Office"
           className="rounded shadow object-cover w-[600px] h-[300px] md:h-[400px]"
         />
