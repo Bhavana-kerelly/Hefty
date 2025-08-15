@@ -1,11 +1,11 @@
 export default function AboutSection() {
   return (
     <section className="py-20 px-6 bg-white text-black flex flex-col md:flex-row items-center gap-10">
-      <div className="w-full md:w-1/2">
+      <div className="w-600 md:w-1/2">
         <img
           src="/About.jpg" // Replace with your actual image path
           alt="Office"
-          className="rounded shadow object-cover w-[600px] h-[300px] md:h-[400px]"
+          className="rounded shadow  w-[600px] h-[300px] md:h-[400px]"
         />
       </div>
       <div className="w-full md:w-1/2">

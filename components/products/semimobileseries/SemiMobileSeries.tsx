@@ -9,12 +9,10 @@ import ContactSection from '@/components/ContactSection';
 
 
 const industries = [
-    { name: "Track Mounted Jaw", link: "/products/mobileseries/trackmountedjawcrusher" },
-    { name: "Track Mounted Cone", link: "/products/mobileseries/trackmountedconecrusher" },
-    { name: "Track Mounted Endurer", link: "/products/mobileseries/trackmountedendurer" },
-    { name: "Track Mounted Vertical Shaft Impactor", link: "/products/mobileseries/trackmountedverticalshiftimpactor" },
-    { name: "Track Mounted Screen", link: "/products/mobileseries/trackmountedscreen" },
-    { name: "Track Mounted Scalper", link: "/products/mobileseries/trackmountedscalper" },
+    { name: "ProFast Jaw", link: "/products/semimobileseries/profastjaw" },
+    { name: "Profast Cone", link: "/products/semimobileseries/profastcone" },
+    { name: "Profast Vertical Shaft Impactor", link: "/products/semimobileseries/profastverticalshiftimpactor" },
+
 
   ];
 
@@ -34,12 +32,12 @@ export default function Crushers() {
         </div>
         <div className="w-full md:w-1/2">
           <h2 className="text-3xl font-bold mb-5">
-           Crushing Power on the Move
+           SEMI MOBILE SERIES
           </h2>
           <p className="text-base text-gray-200 mb-6">
-           At Hefty, we understand that today’s projects demand flexibility, speed, and efficiency. That’s why our Mobile Series Crushers are designed to deliver full-scale crushing performance right where you need it—no matter how remote the location.
+           The HEFTY Semi Mobile Series is designed for operations that demand the flexibility of mobility without compromising the robustness of stationary crushing plants. These units are engineered to be easily transportable while offering exceptional productivity, making them ideal for short- to medium-term projects, mining sites, and aggregate production facilities.
           </p>
-          <p className="text-base text-gray-200 mb-6">Built for easy transport, rapid setup, and uncompromising productivity, the Hefty Mobile Series combines the power of our world-class crushers with the freedom of mobility.
+          <p className="text-base text-gray-200 mb-6">Built with modular structures, the Semi Mobile Series combines quick setup times with heavy-duty performance, ensuring smooth operations in diverse and challenging environments.
           </p>
           
         </div>
@@ -65,13 +63,15 @@ export default function Crushers() {
           {/* Right Side */}
           <div className="text-gray-700 text-lg space-y-6">
             <h2 className="text-3xl md:text-4xl font-semibold text-blue-900 hover:text-[#ec6b24] leading-tight mb-6">
-              What is the Hefty Mobile Series?
+              Why Choose the HEFTY Semi Mobile Series?
             </h2>
-            <p className='text-base text-gray-700'>
-              The Mobile Series is our range of track-mounted and wheel-mounted crushing units that integrate feeding, crushing, screening, and conveying in a single mobile platform. This allows you to eliminate the need for multiple transport setups, reduce material handling costs, and keep production moving without delay.
-            </p>
-            
-            
+            <ol className='text-base text-gray-700'>
+              <li>Versatility in Application: Suitable for mining, quarrying, and recycling operations.</li>
+              <li>Cost-Efficient Setup: Minimal civil work compared to stationary plants.</li>
+              <li>Ease of Relocation: Relocate between sites with minimal downtime.</li>
+              <li>HEFTY Durability: Built to withstand extreme operating conditions with premium-grade materials.</li>
+              <li>Optimized Performance: Designed for high throughput and consistent product quality.</li>
+            </ol>
           </div>
         </div>
       </section>
@@ -82,7 +82,7 @@ export default function Crushers() {
               {/* Left Section */}
               <div>
                 <h4 className="uppercase text-sm font-semibold underline underline-offset-4 mb-4">
-                  Key Features of the Hefty Mobile Series
+                  Key Features of the Semi Mobile Series
                 </h4>
                 <h2 className="text-4xl font-bold leading-tight mb-4">
                   Hefty –<br />
@@ -100,42 +100,83 @@ export default function Crushers() {
               {/* Right Section */}
               <div className="space-y-6">
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">High Mobility – Move with Your Project</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2"> Modular Design – Quick Setup, Easy Relocation</h3>
                   <p className="text-sm text-white">
-                    The Hefty Mobile Series is designed to go wherever your work takes you. Thanks to its compact, track-mounted or wheel-mounted design, it can be transported between job sites quickly and effortlessly. Minimal setup time means you spend less time relocating equipment and more time crushing materials.
+                    The plant is built using a modular architecture, allowing each component (crusher, screen, conveyor, etc.) to be independently installed and dismantled.
                   </p>
+                  <ol className="text-sm text-white">
+                    <li>Benefit: Simplifies transportation and reduces downtime between project sites.</li>
+                    <li>Application: Ideal for contractors handling multiple short- to medium-term projects.</li>
+                    <li>Advantage over Fixed Plants: No need for large civil foundations; reduced initial setup costs.</li>
+                  </ol>
                   
                 </div>
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2"> Integrated Systems – Everything You Need in One Unit</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Heavy-Duty Chassis – Built for Stability and Longevity</h3>
                    <p className="text-sm text-white">
-                   Why manage multiple machines when you can have them all in one? Each Hefty Mobile Series unit integrates a feeder, crusher, and conveyor into a single, compact platform. This all-in-one design not only reduces the need for additional equipment but also improves efficiency by streamlining the entire crushing process.
+                   Constructed with high-grade steel, the chassis is designed to withstand the intense vibrations, impact loads, and material stresses of continuous crushing operations.
                   </p>
+                   <ol className="text-sm text-white">
+                    <li>Benefit: Enhanced durability even in challenging terrains.</li>
+                    <li>Technical Note: Chassis frames are stress-relieved for better fatigue resistance.</li>
+                  </ol>
+                  
                   
                 </div>
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2"> Versatile Configurations – Tailored to Your Needs</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2"> Reduced Setup Time – Rapid Deployment on Site</h3>
                    <p className="text-sm text-white">
-                  No two projects are the same, and neither should your equipment be. The Hefty Mobile Series is available with jaw crushers for primary crushing, cone crushers for secondary and tertiary crushing, and impact crushers for recycling and fine shaping. This flexibility ensures you have the right tool for every application, all within the same mobile concept.
+                  Compared to conventional stationary plants, semi-mobile units can be assembled and commissioned in a fraction of the time.
                   </p>
+                  <ol className="text-sm text-white">
+                    <li>Benefit: Minimizes idle machinery time and accelerates production start-up.</li>
+                    <li>Example: Setup in days instead of weeks.</li>
+                  </ol>
+                  
                 </div>
                  <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2"> Fuel & Energy Efficiency – Lower Your Operating Costs</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Custom Configurations – Tailored to Your Crushing Needs</h3>
                    <p className="text-sm text-white">
-                  We know operational costs can eat into your profits. That’s why our mobile crushers are engineered for maximum output with minimum energy consumption. From optimized engine performance to smart power distribution, every Hefty Mobile Series unit helps you save on fuel without compromising crushing power.
+                  Available in multiple configurations to suit different aggregate processing requirements:
                   </p>
+                  <ol className="text-sm text-white">
+                    <li>Jaw Crushers for primary crushing.
+</li>
+                    <li>Cone Crushers for secondary/tertiary crushing.
+</li>
+                    <li>Impact Crushers for high-speed shaping and sand production.
+</li>
+                    <li>Screening Units for precise gradation control.
+</li>
+                    <li>Benefit: Flexibility to adapt plant layout to material type and desired output size.</li>
+                  </ol>
+                  
                 </div>
                  <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Quick Deployment – From Delivery to Production in Hours</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Fuel-Efficient Operation – Maximum Output at Lower Costs</h3>
                    <p className="text-sm text-white">
-                 Time is money, and the Hefty Mobile Series is built with that in mind. Our mobile crushers can be fully operational within hours of arriving at your site. With minimal setup requirements and user-friendly controls, you can get your operations running at full capacity in record time.
+                 Equipped with optimized drive systems and energy-efficient motors to deliver high performance with minimal fuel consumption.
                   </p>
+                  <ol className="text-sm text-white">
+                    <li>Benefit: Reduces overall operational expenditure.</li>
+                    <li>Sustainability Angle: Lower CO₂ emissions per tonne of output.</li>
+                  </ol>
                 </div>
                  <div className="border border-gray-700 p-6">
-                  <h3 className="text-xl text-white font-semibold mb-2">Heavy-Duty Design – Ready for Any Terrain</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2">Advanced Safety Systems – Protecting People and Equipment</h3>
                    <p className="text-sm text-white">
-                 From rugged mountain quarries to muddy construction sites, the Hefty Mobile Series thrives in challenging conditions. Built with reinforced steel frames, wear-resistant components, and advanced stability systems, our machines are made to withstand the harshest environments while delivering consistent, reliable performance.
+                 Incorporates operator-friendly control systems with built-in safety interlocks and emergency stop mechanisms.
                   </p>
+                  <ol className="text-sm text-white">
+                    <li>Benefit: Ensures safe operation, even under high-load conditions.</li>
+                    <li>Features:
+                      <ul>
+                        <li>Guarding on moving parts.</li>
+                        <li>Overload protection.</li>
+                        <li>Remote monitoring and troubleshooting options.</li>
+                      </ul>
+                    </li>
+                  </ol>
                 </div>
                
               </div>
@@ -176,7 +217,7 @@ export default function Crushers() {
      <section>
         <div className="bg-white text-blue-900 px-6 py-16 mb-15 mt-10">
       <h2 className="text-3xl text-blue-900 hover:text-[#ec6b24] font-bold mb-10">
-        MOBILE SERIES CRUSHERS
+        Types of SEMI MONILE SERIES :
       </h2>
       
 
