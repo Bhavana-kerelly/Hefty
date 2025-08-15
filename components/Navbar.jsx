@@ -106,7 +106,7 @@ export default function Header() {
                     <a href="/products/mobileseries/trackmountedscreen" className="hover:text-black transition-colors">Track Mounted Screen</a>
                     <a href="/products/mobileseries/trackmountedscalper" className="hover:text-black transition-colors">Track Mounted Scalper</a>
                   </div>
-                  {/* Column 3: Semi Mobile Series */}
+                  {/* Column 3: Semi Mobile Series classifier*/}
                   <div className="flex flex-col space-y-3">
                     <div className="font-semibold text-base mb-2">
                       <a href="/products/semimobileseries/semimobileseries" className="hover:text-black transition-colors">Semi Mobile Series</a>
@@ -114,13 +114,17 @@ export default function Header() {
                     <a href="/products/semimobileseries/profastjaw" className="hover:text-black transition-colors">Pro Fast Jaw</a>
                     <a href="/products/semimobileseries/profastcone" className="hover:text-black transition-colors">Pro Fast Cone</a>
                     <a href="/products/semimobileseries/profastverticalshiftimpactor" className="hover:text-black transition-colors">Pro Fast Vertical Shift Impactor</a>
+                    <div className="font-semibold text-base mt-4 mb-2">
+                      <a href="/products/classifier/classifier" className="hover:text-black transition-colors">Classifier</a>
+                    </div>
+                    <a href="/products/classifier/proairclassifier" className="hover:text-black transition-colors">Pro Air Classifier</a>
                   </div>
                   {/* Column 4: Feeders and Impactors */}
                   <div className="flex flex-col space-y-3">
                     <div className="font-semibold text-base mb-2">
                       <a href="/products/feeders/feeders" className="hover:text-black transition-colors">Feeders</a>
                     </div>
-                    <a href="/products/feeders/grizzly" className="hover:text-black transition-colors">Grizzly Feeder</a>
+                    <a href="/products/feeders/grizzlyfeeder" className="hover:text-black transition-colors">Grizzly Feeder</a>
                     <a href="/products/feeders/feederscreen" className="hover:text-black transition-colors">Feeder Screen</a>
                     <a href="/products/feeders/panfeeder" className="hover:text-black transition-colors">Pan Feeder</a>
                     <div className="font-semibold text-base mt-4 mb-2">
@@ -129,7 +133,7 @@ export default function Header() {
                     <a href="/products/impactors/verticalshiftimpactor" className="hover:text-black transition-colors">Vertical Shift Impactor</a>
                     <a href="/products/impactors/horizontalshiftimpactor" className="hover:text-black transition-colors">Horizontal Shift Impactor</a>
                   </div>
-                  {/* Column 5: Screens, Washing, Classifier */}
+                  {/* Column 5: Screens, Washing, Concrete */}
                   <div className="flex flex-col space-y-3">
                     <div className="font-semibold text-base mb-2">
                       <a href="/products/screens/screens" className="hover:text-black transition-colors">Screens</a>
@@ -140,37 +144,24 @@ export default function Header() {
                     </div>
                     <a href="/products/washingsystems/sandwasher" className="hover:text-black transition-colors">Sand Washer</a>
                     <a href="/products/washingsystems/dualsandwasher" className="hover:text-black transition-colors">Dual Sand Washer</a>
-                    <div className="font-semibold text-base mt-4 mb-2">
-                      <a href="/products/classifier/classifier" className="hover:text-black transition-colors">Classifier</a>
-                    </div>
-                    <a href="/products/classifier/proairclassifier" className="hover:text-black transition-colors">Pro Air Classifier</a>
-                  </div>
-                  <div className="font-semibold text-base mb-2">
+                    <div className="font-semibold text-base mb-2">
                     <a href="/products/concretebatchingsolution/concretebatchingsolution" className="hover:text-black transition-colors">Concerete Batching Solution </a>
                   </div>
-                  <div className="font-semibold text-base mb-2">
-                    <a href="/products/mechanicalroadpaver/mechanicalroadpaver" className="hover:text-black transition-colors">Mechanical Road Paver </a>
+                  
                   </div>
-                  <div className="font-semibold text-base mb-2">
-                    <a href="/products/evdumpertruck/evdumpertruck" className="hover:text-black transition-colors">EV -  Dumper Truck </a>
-                  </div>
-                  <div className="font-semibold text-base mb-2">
-                    <a href="/products/evtractortrailertruck/evtractortrailertruck" className="hover:text-black transition-colors">EV- Tractor Trailer Truck </a>
-                  </div>
+                  
                 </div>
               </div>
             )}
           </div>
           
           <a href="/facilities" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
-            Facilities
+            Gallery
           </a>
           <a href="/international" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
             International
           </a>
-          <a href="/services-and-parts" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
-            Services & Parts
-          </a>
+          
           {/* <a href="/news" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
             News
           </a> */}
@@ -180,12 +171,12 @@ export default function Header() {
           <a href="/contact" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
             Contact Us
           </a>
-          <div className="mt-6 flex space-x-4">
+          <div className="ml-20 flex space-x-4">
                         <a
                           href="https://www.facebook.com/profile.php?id=61578856662236"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-blue-900 transition-colors duration-300 hover:text-[#e96a32]"
+                          className="text-[#e96a32] transition-colors duration-300 hover:text-blue-900"
                         >
                           <FaFacebookF size={15} />
                         </a>
@@ -193,7 +184,7 @@ export default function Header() {
                           href="https://x.com/Hefty_hyd "
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-blue-900 transition-colors duration-300 hover:text-[#e96a32]"
+                          className="text-[#e96a32] transition-colors duration-300 hover:text-blue-900"
                         >
                           <FaTwitter size={15} />
                         </a>
@@ -201,7 +192,7 @@ export default function Header() {
                           href="https://www.linkedin.com/company/108119796"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-blue-900 transition-colors duration-300 hover:text-[#e96a32]"
+                          className="text-[#e96a32] transition-colors duration-300 hover:text-blue-900"
                         >
                           <FaLinkedinIn size={15} />
                         </a>
@@ -209,7 +200,7 @@ export default function Header() {
                           href="https://www.instagram.com/hefty_hyd/"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-blue-900 transition-colors duration-300 hover:text-[#e96a32]"
+                          className="text-[#e96a32] transition-colors duration-300 hover:text-blue-900"
                         >
                           <FaInstagram size={15} />
                         </a>
@@ -284,7 +275,7 @@ export default function Header() {
                   <div className="font-semibold mb-2">
                     <a href="/products/feeders" onClick={handleMobileLinkClick} className="block hover:text-black transition-colors">Feeders</a>
                   </div>
-                  <a href="/products/feeders/grizzly" onClick={handleMobileLinkClick} className="block hover:text-black transition-colors">Grizzly Feeder</a>
+                  <a href="/products/feeders/grizzly-feeder" onClick={handleMobileLinkClick} className="block hover:text-black transition-colors">Grizzly Feeder</a>
                   <a href="/products/feeders/feeder-screen" onClick={handleMobileLinkClick} className="block hover:text-black transition-colors">Feeder Screen</a>
                   <a href="/products/feeders/pan-feeder" onClick={handleMobileLinkClick} className="block hover:text-black transition-colors">Pan Feeder</a>
                   <div className="font-semibold mt-4 mb-2">
@@ -313,9 +304,9 @@ export default function Header() {
             )}
           </div>
          
-          <a href="/facilities" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">Facilities</a>
+          <a href="/facilities" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">Gallery</a>
           <a href="/international" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">International</a>
-          <a href="/services-and-parts" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">Services & Parts</a>
+          
            <a href="/blogs" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">Blogs</a>
           {/* <a href="/news" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">News</a> */}
           <a href="/contact" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#e96a32] transition-colors duration-200">Contact Us</a>

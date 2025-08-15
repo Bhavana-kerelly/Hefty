@@ -9,30 +9,21 @@ import ContactSection from '@/components/ContactSection';
 
 
 const industries = [
-    { name: "Working Capital", link: "/services/structuredproducts/workingcapital" },
-    { name: "Asset Finance", link: "/services/structuredproducts/assetfinance" },
-    { name: "Leasing", link: "/services/structuredproducts/leasing" },
-    { name: "Term Loans", link: "/services/structuredproducts/termloans" },
-    { name: "Structed Finance", link: "/services/structuredproducts/structuredfinance" },
-    
+    { name: "Grizzly Feeder", link: "/products/feeders/grizzlyfeeder" },
+    { name: "Feeder Screen", link: "/products/feeders/feederscreen" },
+    { name: "Pan Feeder", link: "/products/feeders/panfeeder" },
+
+
   ];
-const steps = [
-  "Partnerships with leading banks & NBFCs",
-"Expert financial & legal due diligence",
-"Fast-track approvals for eligible firms",
-"Customized structuring for tax & cost efficiency",
-"End-to-end documentation and compliance support",
-"Dedicated relationship manager for your account",
-];
 
 
-export default function MortgageLoans() {
+export default function Crushers() {
   return (
     <>
-      <section className="py-20 px-6  bg-black text-white flex flex-col md:flex-row items-center gap-10">
+      <section className="py-20 px-6  bg-[#ec6b24] text-white flex flex-col md:flex-row items-center gap-10">
         <div className="w-full md:w-1/2">
           <Image
-            src="/coorporate/C1.jpg"
+            src="/feeders/F1.jpg"
             alt="Office"
             width={800}
             height={500}
@@ -40,13 +31,14 @@ export default function MortgageLoans() {
           />
         </div>
         <div className="w-full md:w-1/2">
-          <h2 className="text-2xl font-bold mb-5">
-            Big Visions. Bold Moves. Backed by Smart Capital.
+          <h2 className="text-3xl font-bold mb-5">
+           Reliable Material Handling for Every Operation
           </h2>
-          <p className="text-base mb-6">
-           At Nihal Finserv, we empower your business to scale, diversify, and innovate with customized corporate loan solutions. Whether your expanding your operations, investing in new technology, or boosting your working capital — we ensure you get the right funding at the right time.
+          <p className="text-base text-gray-200 mb-6">
+           At Hefty, we design and manufacture feeders that deliver a steady, controlled flow of material to crushers, screens, and conveyors — ensuring maximum efficiency and consistent output. Built to handle a wide range of materials and capacities, our feeders combine strength, precision, and durability for the toughest mining, quarrying, and aggregate applications.
           </p>
-          
+          <p className="text-base text-gray-200 mb-6">Whether you need to handle fine particles, large boulders, or everything in between, Hefty Feeders are engineered to deliver unmatched performance in material processing.
+          </p>
           
         </div>
       </section>
@@ -58,7 +50,7 @@ export default function MortgageLoans() {
             
             <div className="rounded-xl overflow-hidden shadow-md">
               <Image
-                src="/coorporate/C2.jpg" // make sure to place the image in /public folder
+                src="/feeders/F2.jpg" // make sure to place the image in /public folder
                 alt="Team"
                 width={700}
                 height={400}
@@ -70,110 +62,109 @@ export default function MortgageLoans() {
 
           {/* Right Side */}
           <div className="text-gray-700 text-lg space-y-6">
-            <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 leading-tight mb-6">
-              What Are Coorporate Loans?
+            <h2 className="text-3xl md:text-4xl font-semibold text-blue-900 hover:text-[#ec6b24] leading-tight mb-6">
+              What Are Feeders?
             </h2>
-            <p>
-              A Corporate Loan is a high-value business loan designed specifically for medium to large enterprises looking to finance growth, infrastructure, acquisitions, or operational needs. These loans offer longer tenures, flexible repayment terms, and higher limits — aligned with your company’s financial strategy.
-            </p>
-            
-            
+            <p className="text-base text-black mb-6">A feeder is a machine that receives bulk material from a dump hopper, truck, or loader and delivers it at a regulated rate to the next stage of processing. Feeders are crucial for smooth operation, reducing downtime, and improving overall efficiency.
+          </p>
           </div>
         </div>
       </section>
       
      
-          <section className="bg-[#1C1C1C] text-white px-8 py-16">
+          <section className="bg-[#ec6b24] text-white px-8 py-16">
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
               {/* Left Section */}
               <div>
                 <h4 className="uppercase text-sm font-semibold underline underline-offset-4 mb-4">
-                  Purpose-Fit Funding For
+                  Key Features of Hefty Feeders
                 </h4>
-                <h2 className="text-5xl font-bold leading-tight mb-4">
-                  Nihal Finserv -<br />
-                  <span className="text-gray-400">Where Your</span> <br />
-                  <span className="text-red-500">Goals</span>{" "}
-                  <span className="text-gray-500">Come First</span>
+                <h2 className="text-4xl font-bold leading-tight mb-4">
+                  Hefty –<br />
+                  <span className="text-gray-700">Powering Productivity</span> <br />
+                  <span className="text-white">With Precision Crushing</span>{" "}<br/>
+                  <span className="text-gray-700">& Screening</span>
                 </h2>
-                <p className="text-gray-300 mb-8 max-w-md">
-                  Your dreams are not just numbers - they are plans, futures, and possibilities.
-                </p>
-                <p className='text-gray-300 text-sm'>As an RBI-compliant financial consultancy and an authorized channel partner with top banks and NBFCs, Nihal Finserv brings credibility, transparency, and trust to your loan journey.</p>
-                <button className="border border-red-500 text-white px-6 py-3 hover:bg-red-500 transition flex items-center gap-2">
-                  <span className="text-red-500">&#8213;</span> Get In Touch
+                
+                <p className='text-gray-900 text-sm'>At Hefty, we understand that a crusher isn’t just a machine – it’s the heart of your operation. That’s why our crushers are built with a commitment to engineering excellence, operational reliability, and long-term value.</p><br/>
+                <button className="border border-blue-900 text-white px-6 py-3 hover:bg-blue-900 transition flex items-center gap-2 mt-5">
+                  <span className="text-blue-900">&#8213;</span> Get In Touch
                 </button>
               </div>
       
               {/* Right Section */}
               <div className="space-y-6">
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-2xl font-semibold mb-2"> Infrastructure Development</h3>
-                  <p className="text-gray-400">
-                    With deep market knowledge and financial acumen, we ensure you get the best-fit product aligned with your short and long-term financial goals.
+                  <h3 className="text-xl text-white font-semibold mb-2">Robust Construction</h3>
+                  <p className="text-sm text-white">
+                    Built with high-strength steel and reinforced components, Hefty Feeders are engineered to handle the toughest mining, quarrying, and aggregate applications. Their heavy-duty framework ensures stability and durability, even in continuous high-load operations.
+                  </p>
+                  
+                  
+                </div>
+                <div className="border border-gray-700 p-6">
+                  <h3 className="text-xl text-white font-semibold mb-2"> Adjustable Feed Rates</h3>
+                   <p className="text-sm text-white">
+                   Equipped with precise control systems, our feeders allow you to fine-tune the material flow to match downstream processing needs. This ensures optimal efficiency, prevents overloading, and improves the overall productivity of your plant.
                   </p>
                   
                 </div>
                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-2xl font-semibold mb-2"> Factory Setup or Plant Expansion</h3>
+                  <h3 className="text-xl text-white font-semibold mb-2"> Wear-Resistant Liners</h3>
+                   <p className="text-sm text-white">
+                  Strategically fitted with premium wear-resistant liners, Hefty Feeders are designed to withstand abrasive materials, extending the service life of key components and reducing replacement costs over time.
+                  </p>
                   
                   
                 </div>
-                <div className="border border-gray-700 p-6">
-                  <h3 className="text-2xl font-semibold mb-2">Large Inventory Procurement</h3>
+                 <div className="border border-gray-700 p-6">
+                  <h3 className="text-xl text-white font-semibold mb-2"> High-Efficiency Motors</h3>
+                   <p className="text-sm text-white">
+                  Our feeders come with energy-efficient motors that deliver consistent performance while minimizing operational costs. These motors are engineered for long life and low maintenance, ensuring reliability shift after shift.
+                  </p>
                  
-                </div>
-                <div className="border border-gray-700 p-6">
-                  <h3 className="text-2xl font-semibold mb-2">Working Capital Support</h3>
                   
                 </div>
-                <div className="border border-gray-700 p-6">
-                  <h3 className="text-2xl font-semibold mb-2"> Mergers & Acquisitions</h3>
-                  
-                </div>
-                <div className="border border-gray-700 p-6">
-                  <h3 className="text-2xl font-semibold mb-2"> New Office or Branch Launches</h3>
+                 <div className="border border-gray-700 p-6">
+                  <h3 className="text-xl text-white font-semibold mb-2"> Easy Maintenance Access</h3>
+                   <p className="text-sm text-white">
+                 The design prioritizes accessibility with strategically placed service points, making inspections, lubrication, and part replacements quick and simple. This reduces downtime and keeps your operations running smoothly.
+                  </p>
                  
                 </div>
                  <div className="border border-gray-700 p-6">
-                  <h3 className="text-2xl font-semibold mb-2"> Technology Upgrades / ERP Setup</h3>
-                 
+                  <h3 className="text-xl text-white font-semibold mb-2"> Dust & Noise Control</h3>
+                   <p className="text-sm text-white">
+                 Optional dust covers, liners, and noise-reducing components are available to help you meet environmental and safety standards. This feature makes Hefty Feeders ideal for operations in sensitive work zones or areas with strict compliance requirements.
+                  </p>
+                  
                 </div>
-                 <div className="border border-gray-700 p-6">
-                  <h3 className="text-2xl font-semibold mb-2"> Global Market Expansion</h3>
-                 
-                </div>
+               
               </div>
             </div>
           </section>
         
 
-      <section className="bg-[#f5f5f5] px-6 py-12 md:py-20 w-full">
+      <section className="bg-gray-200 px-6 py-12 md:py-20 w-full">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
         {/* Left: Text and Checklist */}
         <div>
-          <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-4">
-            Why Choose Nihal Finserv
-          </h2>
-          <p className="text-gray-600 text-lg mb-6 max-w-xl">
-            Nihal Finserv ensures personalized guidance through every step, from documentation to loan disbursal.
+          <h2 className="text-3xl text-blue-900 hover:text-[#ec6b24] font-bold leading-tight mb-4">
+                  Global Reach –<br />
+                  <span className="text-blue-900 hover:text-[#ec6b24]">Trusted by Industries Worldwide</span> 
+                </h2>
+          <p className="text-black text-base mb-6 max-w-xl">
+            With installations across mining, construction, quarrying, and recycling industries in multiple countries, Hefty has earned a reputation for reliability and excellence. Our crushers are chosen by businesses worldwide for their consistent performance, ease of maintenance, and superior return on investment. Wherever you operate, our global service network ensures you’re never without support.
           </p>
           
-          <ul className="space-y-4">
-            {steps.map((step, idx) => (
-              <li key={idx} className="flex items-start gap-3 text-gray-800 text-base md:text-lg">
-                <CheckCircle className="text-red-500 mt-1" size={20} />
-                {step}
-              </li>
-            ))}
-          </ul>
+         
            
         </div>
 
         {/* Right: Image */}
         <div className="w-full rounded-xl overflow-hidden shadow-md">
           <Image
-            src="/coorporate/C3.jpg" 
+            src="/feeders/F3.jpg" 
             alt="Developer at work"
             width={800}
             height={500}
@@ -185,9 +176,9 @@ export default function MortgageLoans() {
 
     
      <section>
-        <div className="bg-black text-white px-6 py-16">
-      <h2 className="text-3xl font-bold mb-4">
-        CORPORATE LOANS
+        <div className="bg-white text-blue-900 px-6 py-16 mb-15 mt-10">
+      <h2 className="text-3xl text-blue-900 hover:text-[#ec6b24] font-bold mb-10">
+        Types of Feeders 
       </h2>
       
 
@@ -196,7 +187,7 @@ export default function MortgageLoans() {
           <a
             key={index}
             href={item.link}
-            className="border border-gray-600 rounded-md py-6 px-4 flex items-center justify-center hover:bg-gray-800 transition text-sm font-medium text-center"
+            className="border border-blue-900 rounded-md py-6 px-4 flex items-center justify-center hover:bg-[#ec6b24] transition text-sm font-medium text-center"
           >
             {item.name}
           </a>
@@ -204,78 +195,6 @@ export default function MortgageLoans() {
       </div>
     </div>
       </section>
-    
- 
-    
-    <section className="bg-white text-black py-16 px-6 md:px-20">
-      <div className="bg-gray-900 text-white mt-20 py-16 px-6 md:px-20">
-        <h2 className="text-4xl font-bold text-center mb-6">
-           Corporate Loans
-        </h2>
-        <p className="text-center text-lg max-w-4xl mx-auto mb-14">
-          At Nihal Finserv, we’re more than loan facilitators—we’re your financial growth partners. Let us help you unlock the potential of your assets and achieve your ambitions with confidence.
-        </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          {[
-            {
-              city: "Key Features ",
-              points: [
-    "Loan Amount	₹50 Lakhs to ₹100 Crores+",
-"Tenure	1 to 10 Years",
-"Interest Rates	Competitive, based on profile",
-"Repayment Options	EMI, bullet, structured",
-"Security	Secured / Unsecured options",
-"Top-Up Facility	Available after timely repayment",
-  ],
-            },
-            {
-              city: "Eligibility Criteria",
-              points: [
-    "Business Age	3+ years of operations",
-"Turnover	₹5 Crores+ annually",
-"Profitability	Last 2 years preferred",
-"Docs Required	Company financials, ITRs, bank statements, KYC, project reports, etc.",
-"Don’t meet all the criteria? We can still help with alternate structures or working capital solutions.",
-  ],
-            },
-             {
-              city: "Loan Structuring Options",
-              points: [
-    "Term Loan with Moratorium",
-"Working Capital OD/CC Limits",
-"Project-Based Finance",
-"Lease Rental Discounting",
-"Debt Consolidation / Refinancing",
-  ],
-            },
-            {
-              city: "Client Testimonial",
-              text:  "We partnered with Nihal Finserv for a ₹15 Crore loan to expand our manufacturing unit. Their team handled everything from structuring to disbursement with full professionalism.",
-              
-            },
-            
-           
-             
-          ].map(({ city, text, points }) => (
-  <div key={city} className="border border-gray-700 p-6 rounded-lg">
-    <h3 className="text-2xl font-semibold mb-4 text-white">{city}</h3>
-    {points ? (
-      <ul className="text-gray-300 list-disc list-inside space-y-2">
-        {points.map((point, idx) => (
-          <li key={idx}>{point}</li>
-        ))}
-      </ul>
-    ) : (
-      <p className="text-gray-300 leading-relaxed">{text}</p>
-    )}
-  </div>
-))}
-        </div>
-      </div>
-    </section>
-
-    
     
     <ContactSection />
     
