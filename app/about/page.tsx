@@ -41,7 +41,7 @@ const AboutUs = () => {
         </div>
         <div className="md:w-1/2">
           <Image
-            src="/images/Family.jpg"
+            src="/Family.png"
             alt="Team Working"
             width={800}
             height={500}
