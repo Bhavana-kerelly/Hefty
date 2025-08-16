@@ -143,7 +143,7 @@ export default function Crushers() {
                  
                            <div className="w-full rounded-xl overflow-hidden shadow-md">
                              <Image
-                               src="/semimobileseries/PC3.jpg"
+                               src="/classifier/C3.jpg"
                                alt="Documents"
                                width={800}
                                height={500}

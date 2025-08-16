@@ -123,8 +123,8 @@ export default function Header() {
                     </div>
                     <a href="/products/semimobileseries/profastjaw" className="hover:text-black transition-colors">Pro Fast Jaw</a>
                     <a href="/products/semimobileseries/profastcone" className="hover:text-black transition-colors">Pro Fast Cone</a>
-                    <a href="/products/semimobileseries/prfmqseries" className="hover:text-black transition-colors">Pro Fast MQ Series</a>
-                    <a href="/products/semimobileseries/prfmcseries" className="hover:text-black transition-colors">Pro Fast MC Series</a>
+                    <a href="/products/semimobileseries/prfmqseries" className="ml-6 hover:text-black transition-colors">Pro Fast MQ Series</a>
+                    <a href="/products/semimobileseries/prfmcseries" className="ml-6 hover:text-black transition-colors">Pro Fast MC Series</a>
                     <a href="/products/semimobileseries/profastverticalshiftimpactor" className="hover:text-black transition-colors">Pro Fast Vertical Shift Impactor</a>
                     <div className="font-semibold text-base mt-4 mb-2">
                       <a href="/products/classifier/classifier" className="text-[#e96a32] hover:text-black transition-colors">Classifier</a>
@@ -170,7 +170,7 @@ export default function Header() {
             )}
           </div>
           
-          <a href="/facilities" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
+          <a href="/gallery" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">
             Gallery
           </a>
           <a href="/international" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:text-[#e96a32]">

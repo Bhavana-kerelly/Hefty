@@ -13,7 +13,7 @@ export default function HeftyBlog4() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-3xl md:text-4xl font-extrabold mb-8 text-[#ec6b24] "
+          className="font-serif text-3xl md:text-4xl font-extrabold mb-8 text-[#ec6b24] "
         >
           Safety and Sustainability – How Hefty Leads in Responsible Machinery Design
         </motion.h1>

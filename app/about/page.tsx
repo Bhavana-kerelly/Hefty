@@ -29,7 +29,7 @@ const AboutUs = () => {
       {/* SECTION 2: About + Side Image */}
       <section className="flex flex-col md:flex-row items-center gap-8 px-8 py-16 bg-white">
         <div className="md:w-1/2 space-y-6">
-          <h2 className="text-4xl font-bold text-blue-900 hover:text-[#ec6b24]">
+          <h2 className="font-serif text-4xl font-bold text-blue-900 hover:text-[#ec6b24]">
            About Hefty
           </h2>
           <p >

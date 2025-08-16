@@ -135,7 +135,7 @@ export default function AIChatbotFinancing() {
       
                 <div className="w-full rounded-xl overflow-hidden shadow-md">
                   <Image
-                    src="/screena/VS3.jpg"
+                    src="/washingsystems/P3.jpg"
                     alt="Documents"
                     width={800}
                     height={500}

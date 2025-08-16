@@ -13,7 +13,7 @@ export default function HeftyBlog2() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-3xl md:text-4xl font-bold mb-8 text-[#ec6b24] "
+          className="font-serif text-3xl md:text-4xl font-bold mb-8 text-[#ec6b24] "
         >
           The Science of Perfect Aggregates – How Hefty Machines Deliver Unmatched Quality
         </motion.h1>

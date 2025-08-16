@@ -28,7 +28,7 @@ export default function HeroSection() {
     <section className="bg-black text-white py-20 px-6 items-center min-h-[400px]">
       {/* Text Block */}
       <div className="max-w-full text-center">
-  <h1 className="text-4xl text-[#ec6b24] font-bold leading-tight mb-6">
+  <h1 className="font-serif text-4xl text-[#ec6b24] font-bold leading-tight mb-6">
     Hyderabad’s Leading Certified Company<br />
     For Crushing Equipment
   </h1>

@@ -45,7 +45,7 @@ export default function ContactPage() {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="space-y-8"
         >
-          <h1 className="text-4xl font-bold text-black">Contact Hefty</h1>
+          <h1 className="font-serif text-4xl font-bold text-gray-700">Contact Hefty</h1>
           <p className=" text-gray-500 text-sm">
             Reach out today and experience Hefty’s commitment to quality, reliability, and unmatched support for Screening and Crushers Equipment
           </p>

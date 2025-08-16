@@ -13,7 +13,7 @@ export default function HeftyBlog3() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-3xl md:text-4xl font-bold mb-8 text-[#ec6b24] d"
+          className="font-serif text-3xl md:text-4xl font-bold mb-8 text-[#ec6b24] d"
         >
           Why Mobility is the Future of Crushing Equipment – The Hefty Advantage
         </motion.h1>

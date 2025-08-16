@@ -51,7 +51,7 @@ export default function BlogsPage() {
       <div className="min-h-screen bg-gray-100 text-black py-16">
         <div className="container mx-auto px-4">
           <motion.h1
-            className="text-4xl font-extrabold text-center mb-16 text-[#ec6b24]"
+            className="font-serif text-4xl font-extrabold text-center mb-16 text-[#ec6b24]"
             initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}

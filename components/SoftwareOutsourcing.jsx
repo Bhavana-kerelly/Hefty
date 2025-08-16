@@ -62,7 +62,7 @@ export default function SoftwareOutsourcing() {
           
           {/* Main content section with centered text */}
           <div className="space-y-6 text-center">
-            <h1 className="text-3xl lg:text-4xl font-bold leading-tight">
+            <h1 className="font-serif text-3xl lg:text-4xl font-bold leading-tight">
               Wide Range of Crushing & Screening Solutions<br/>
               with Your Trusted Industry Partner 
             </h1>

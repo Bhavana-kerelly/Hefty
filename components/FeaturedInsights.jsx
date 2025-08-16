@@ -29,7 +29,7 @@ export default function FeaturedInsights() {
   return (
     <div className="max-w-[1200px] mx-auto px-4 py-16 font-sans group">
       {/* Blogs Heading */}
-      <h2 className="text-blue-900 text-4xl font-bold text-center mb-4 transition-colors duration-300 group-hover:text-orange-500">
+      <h2 className="font-serif text-blue-900 text-4xl font-bold text-center mb-4 transition-colors duration-300 group-hover:text-orange-500">
         Blogs
       </h2>
 
