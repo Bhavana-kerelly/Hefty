@@ -7,7 +7,7 @@ import ContactSection from '@/components/ContactSection';
 
 const industries = [
    
-    { name: "Track Mounted Jaw 811 S ", link: "/products/mobileseries/jaw811s" },
+    { name: "Track Mounted Jaw 811 ", link: "/products/mobileseries/jaw811" },
 
   ];
 

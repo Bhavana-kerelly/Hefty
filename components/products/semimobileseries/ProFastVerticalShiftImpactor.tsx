@@ -58,10 +58,10 @@ export default function AIChatbotFinancing() {
             <h2 className="text-3xl md:text-4xl font-semibold text-blue-900 hover:text-[#ec6b24] leading-tight mb-6">
              What is a Vertical Shaft Impactor (VSI)?
             </h2>
-             <p className="text-base text-gray-200 mb-6">
+             <p className="text-base text-black mb-6">
           A VSI is a high-speed crusher that uses a rock-on-rock or rock-on-steel crushing principle to produce precisely shaped aggregates and manufactured sand. It is widely used in the production of cubical aggregates for concrete, asphalt, and road construction.
           </p>
-             <p className="text-base text-gray-200 mb-6">
+             <p className="text-base text-black mb-6">
           The Profast series VSI combines the benefits of mobile flexibility with the robustness of stationary plant performance. It ensures maximum output, reduced downtime, and exceptional particle shape, making it the go-to solution for high-specification project.
           </p>
           </div>

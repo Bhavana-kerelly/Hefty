@@ -156,7 +156,7 @@ if (!slug) {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen py-12 px-4">
+      <main className="bg-white min-h-screen py-12 px-4">
         <Component />
       </main>
       <Footer />
