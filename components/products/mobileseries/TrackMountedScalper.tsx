@@ -32,7 +32,7 @@ export default function AIChatbotFinancing() {
            <h2 className="text-3xl font-bold mb-5">
            Engineered for the Toughest Screening Challenges
           </h2>
-          <p className="text-base text-black mb-6">
+          <p className="text-base text-gray-200 mb-6">
          The Hefty Track Mounted Scalper is built to take on the most demanding screening applications with unmatched precision and efficiency. Whether you’re working with heavy overburden, blasted rock, or construction & demolition debris, our scalper delivers maximum productivity without compromising mobility.
           </p>
            <p className="text-base text-gray-200 mb-6">
@@ -59,7 +59,7 @@ export default function AIChatbotFinancing() {
             <h2 className="text-3xl md:text-4xl font-semibold text-blue-900 hover:text-[#ec6b24] leading-tight mb-6">
           Why TRACK MOUNTED SCALPER ?
             </h2>
-             <p className="text-base text-gray-200 mb-6">
+             <p className="text-base text-black mb-6">
          Hefty Track Mounted Scalper PSS 1550 is a combination of extremely accurate scalp material screening of end product and high output. Its cost effectiveness is justified by its low fuel consumption, low operating and maintenance costs as well as high capacity. Propel PSS 1550 can be used in multiple applications such as mining, recycling or normal aggregate pre-screening.
           </p>
           </div>
@@ -120,7 +120,7 @@ export default function AIChatbotFinancing() {
         
         <div className="p-4 mt-20 mb-20 bg-white">
           <h1 className='text-blue-900  text-4xl mb-5 text-bold'>Technical Data</h1>
-      <table className="border border-gray-400 w-full text-center">
+      <table className="border border-gray-400 w-full text-center text-black">
         <tbody>
           {tableData.map((row, rowIndex) => (
             <tr key={rowIndex} className={rowIndex === 0 ? "font-bold bg-gray-200" : ""}>

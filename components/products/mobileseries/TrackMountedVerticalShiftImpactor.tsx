@@ -127,7 +127,7 @@ export default function AIChatbotFinancing() {
         
         <div className="p-4 mt-20 mb-20 bg-white">
           <h1 className='text-blue-900  text-4xl mb-5 text-bold'>Technical Data</h1>
-      <table className="border border-gray-400 w-full text-center">
+      <table className="border border-gray-400 w-full text-center text-black">
         <tbody>
           {tableData.map((row, rowIndex) => (
             <tr key={rowIndex} className={rowIndex === 0 ? "font-bold bg-gray-200" : ""}>
