@@ -14,7 +14,7 @@ export default function SoftwareOutsourcing() {
     {
       title: "CRUSHERS",
       description:
-        "We offer secured loans backed by your assets — property, gold, or investments. Enjoy higher approvals, flexible terms, and expert support every step of the way. Secure your future, with a loan you can trust.",
+        "At Hefty, we engineer crushers that stand up to the toughest demands — across mining, quarrying, construction, and recycling. Built for performance, powered by reliability, and tailored to your production goals.",
       items: [
         { name: "Jaw Crushers", url: "/products/crushers/jawcrushers" },
         { name: "Cone Crushers", url: "/products/crushers/conecrushers" },
@@ -24,7 +24,7 @@ export default function SoftwareOutsourcing() {
     {
       title: "MOBILE SERIES",
       description:
-        "No collateral? No problem. Get quick access to unsecured loans based on your income and credit profile. Ideal for personal needs, business growth, or unexpected expenses. Fast approvals, flexible EMIs — all with zero asset risk.",
+        "Hefty’s Mobile Series delivers high-performance crushing wherever the job takes you — fast, flexible, and field-ready. Engineered for mobility, built for productivity, trusted to perform anywhere.",
       items: [
         { name: "Track Mounted Jaw Crushers", url: "/products/mobileseries/trackmountedjawcrusher" },
         { name: "Track Mounted Cone Crushers", url: "/products/mobileseries/trackmountedconecrusher" },
@@ -36,7 +36,7 @@ export default function SoftwareOutsourcing() {
     {
       title: "SEMI MOBILE SERIES",
       description:
-        "Looking for long-term funding with structured repayments? Our term loans offer fixed tenure and predictable EMIs to suit your business or personal goals. Whether it’s for expansion, equipment, or working capital — we’ve got the right plan. Grow with confidence, backed by stable and flexible financing.",
+        "The HEFTY Semi Mobile Series delivers the strength of stationary crushers with the flexibility to move when you need it. Ideal for short- to mid-term operations, it’s built for rapid setup, reliable output, and rugged performance anywhere.",
       items: [
         { name: "Pro Fast Jaw", url: "/products/semimobileseries/profastjaw" },
         { name: "Pro Fast Cone", url: "/products/semimobileseries/profastcone" },
