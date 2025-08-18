@@ -2,7 +2,7 @@
 
 import React, { Fragment } from 'react';
 import { FaBolt, FaBullseye, FaTachometerAlt } from "react-icons/fa";
-import GlobeAnimation from './GlobeAnimation';
+
 
 export default function HeroSection() {
   const features = [
@@ -25,7 +25,17 @@ export default function HeroSection() {
   ];
 
   return (
-    <section className="bg-black text-white py-20 px-6 items-center min-h-[400px]">
+    <section className="relative w-full text-white py-20 px-6 items-center min-h-[400px] overflow-hidden">
+
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+        src="/videos/background.mp4" // 👉 Place your video in public/videos/
+        autoPlay
+        loop
+        muted
+        playsInline
+      ></video>
+
       {/* Text Block */}
       <div className="max-w-full text-center">
   <h1 className="font-serif text-4xl text-[#ec6b24] font-bold leading-tight mb-6">
@@ -48,7 +58,7 @@ export default function HeroSection() {
       </div>
 
         {/* Features Block */}
-        <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-10 bg-black py-10 px-4 rounded-lg">
+        <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-10  py-10 px-4 rounded-lg">
           {features.map((feature, index) => (
             <Fragment key={index}>
               <div className="flex items-center text-white max-w-sm gap-4">

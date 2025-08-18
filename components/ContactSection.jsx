@@ -7,7 +7,7 @@ const offices = [
     city: "Hyderabad",
     address: "Hyderabad",
     phone: "+91 73375 00757",
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.3371810419266!2d78.43265107504443!3d17.44390038346123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b929653770335e9%3A0x8673a55745161421!2sMadhuranagar%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1716301385493!5m2!1sen!2sin"
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.186118357271!2d78.42800247504466!3d17.406498083457985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1716302000000!5m2!1sen!2sin"
   },
   
 ];
@@ -197,7 +197,7 @@ const styles = {
   mapContainer: {
     marginTop: "15px",
     width: "100%",
-    height: "270px",
+    height: "290px",
   },
   mapIframe: {
     width: "100%",
